@@ -1,0 +1,12 @@
+# Ignore everything
+*
+
+# But track markdown files
+!*.md
+
+# Track .gitignore itself
+!.gitignore
+
+# Don't track files in subdirectories by default
+# To include .md files in subdirectories, use:
+!*/
