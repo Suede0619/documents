@@ -1,0 +1,190 @@
+<svg width="1200" height="800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Title -->
+  <text x="50" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#1a1a1a">
+    The Rumi App - Color Palette
+  </text>
+  <text x="50" y="65" font-family="Arial, sans-serif" font-size="14" fill="#666666">
+    Islamic Art-Inspired Colors for Spiritual Design
+  </text>
+
+  <!-- PRIMARY COLORS -->
+  <text x="50" y="110" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#1a1a1a">
+    Primary Colors
+  </text>
+
+  <!-- Cobalt Blue / Lapis Lazuli -->
+  <rect x="50" y="130" width="120" height="120" fill="#2E5090" rx="8"/>
+  <text x="110" y="270" font-family="monospace" font-size="12" fill="#1a1a1a" text-anchor="middle">#2E5090</text>
+  <text x="110" y="285" font-family="Arial, sans-serif" font-size="11" fill="#666666" text-anchor="middle">Cobalt Blue</text>
+  <text x="110" y="298" font-family="Arial, sans-serif" font-size="9" fill="#999999" text-anchor="middle">Heaven, Spirituality</text>
+
+  <!-- Turquoise -->
+  <rect x="190" y="130" width="120" height="120" fill="#40E0D0" rx="8"/>
+  <text x="250" y="270" font-family="monospace" font-size="12" fill="#1a1a1a" text-anchor="middle">#40E0D0</text>
+  <text x="250" y="285" font-family="Arial, sans-serif" font-size="11" fill="#666666" text-anchor="middle">Turquoise</text>
+  <text x="250" y="298" font-family="Arial, sans-serif" font-size="9" fill="#999999" text-anchor="middle">Eternity, Sky</text>
+
+  <!-- Gold -->
+  <rect x="330" y="130" width="120" height="120" fill="#D4AF37" rx="8"/>
+  <text x="390" y="270" font-family="monospace" font-size="12" fill="#1a1a1a" text-anchor="middle">#D4AF37</text>
+  <text x="390" y="285" font-family="Arial, sans-serif" font-size="11" fill="#666666" text-anchor="middle">Gold</text>
+  <text x="390" y="298" font-family="Arial, sans-serif" font-size="9" fill="#999999" text-anchor="middle">Divine Light</text>
+
+  <!-- Green -->
+  <rect x="470" y="130" width="120" height="120" fill="#007A3D" rx="8"/>
+  <text x="530" y="270" font-family="monospace" font-size="12" fill="#1a1a1a" text-anchor="middle">#007A3D</text>
+  <text x="530" y="285" font-family="Arial, sans-serif" font-size="11" fill="#666666" text-anchor="middle">Islamic Green</text>
+  <text x="530" y="298" font-family="Arial, sans-serif" font-size="9" fill="#999999" text-anchor="middle">Paradise, Life</text>
+
+  <!-- DARK VARIATIONS -->
+  <text x="50" y="350" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#1a1a1a">
+    Dark Variations (Night)
+  </text>
+
+  <!-- Midnight Blue -->
+  <rect x="50" y="370" width="120" height="120" fill="#0A1628" rx="8"/>
+  <text x="110" y="510" font-family="monospace" font-size="12" fill="#1a1a1a" text-anchor="middle">#0A1628</text>
+  <text x="110" y="525" font-family="Arial, sans-serif" font-size="11" fill="#666666" text-anchor="middle">Midnight Blue</text>
+  <text x="110" y="538" font-family="Arial, sans-serif" font-size="9" fill="#999999" text-anchor="middle">Deep Contemplation</text>
+
+  <!-- Dark Dark Green -->
+  <rect x="190" y="370" width="120" height="120" fill="#0D1F17" rx="8"/>
+  <text x="250" y="510" font-family="monospace" font-size="12" fill="#1a1a1a" text-anchor="middle">#0D1F17</text>
+  <text x="250" y="525" font-family="Arial, sans-serif" font-size="11" fill="#666666" text-anchor="middle">Night Green</text>
+  <text x="250" y="538" font-family="Arial, sans-serif" font-size="9" fill="#999999" text-anchor="middle">Sacred Stillness</text>
+
+  <!-- Rich Blue-Green -->
+  <rect x="330" y="370" width="120" height="120" fill="#1B4D5C" rx="8"/>
+  <text x="390" y="510" font-family="monospace" font-size="12" fill="#1a1a1a" text-anchor="middle">#1B4D5C</text>
+  <text x="390" y="525" font-family="Arial, sans-serif" font-size="11" fill="#666666" text-anchor="middle">Teal Depth</text>
+  <text x="390" y="538" font-family="Arial, sans-serif" font-size="9" fill="#999999" text-anchor="middle">Wisdom, Mystery</text>
+
+  <!-- NEUTRALS & ACCENTS -->
+  <text x="50" y="590" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#1a1a1a">
+    Neutrals & Accents
+  </text>
+
+  <!-- White / Cream -->
+  <rect x="50" y="610" width="120" height="120" fill="#F8F6F0" rx="8" stroke="#CCCCCC" stroke-width="1"/>
+  <text x="110" y="750" font-family="monospace" font-size="12" fill="#1a1a1a" text-anchor="middle">#F8F6F0</text>
+  <text x="110" y="765" font-family="Arial, sans-serif" font-size="11" fill="#666666" text-anchor="middle">Ivory</text>
+  <text x="110" y="778" font-family="Arial, sans-serif" font-size="9" fill="#999999" text-anchor="middle">Purity, Light</text>
+
+  <!-- Black -->
+  <rect x="190" y="610" width="120" height="120" fill="#1a1a1a" rx="8"/>
+  <text x="250" y="750" font-family="monospace" font-size="12" fill="#1a1a1a" text-anchor="middle">#1A1A1A</text>
+  <text x="250" y="765" font-family="Arial, sans-serif" font-size="11" fill="#666666" text-anchor="middle">Near Black</text>
+  <text x="250" y="778" font-family="Arial, sans-serif" font-size="9" fill="#999999" text-anchor="middle">Calligraphy</text>
+
+  <!-- Red / Crimson -->
+  <rect x="330" y="610" width="120" height="120" fill="#A7414A" rx="8"/>
+  <text x="390" y="750" font-family="monospace" font-size="12" fill="#1a1a1a" text-anchor="middle">#A7414A</text>
+  <text x="390" y="765" font-family="Arial, sans-serif" font-size="11" fill="#666666" text-anchor="middle">Crimson</text>
+  <text x="390" y="778" font-family="Arial, sans-serif" font-size="9" fill="#999999" text-anchor="middle">Vitality (accent)</text>
+
+  <!-- Soft Gray -->
+  <rect x="470" y="610" width="120" height="120" fill="#8B9299" rx="8"/>
+  <text x="530" y="750" font-family="monospace" font-size="12" fill="#1a1a1a" text-anchor="middle">#8B9299</text>
+  <text x="530" y="765" font-family="Arial, sans-serif" font-size="11" fill="#666666" text-anchor="middle">Stone Gray</text>
+  <text x="530" y="778" font-family="Arial, sans-serif" font-size="9" fill="#999999" text-anchor="middle">Balance</text>
+
+  <!-- USAGE GUIDE -->
+  <rect x="650" y="130" width="500" height="650" fill="#F9F9F9" rx="8" stroke="#E0E0E0" stroke-width="2"/>
+
+  <text x="680" y="165" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#1a1a1a">
+    Usage Guidelines
+  </text>
+
+  <!-- Primary Uses -->
+  <text x="680" y="200" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#2E5090">
+    Primary Colors
+  </text>
+  <text x="680" y="220" font-family="Arial, sans-serif" font-size="11" fill="#333333">
+    • Cobalt Blue: Headlines, key sections, spiritual moments
+  </text>
+  <text x="680" y="238" font-family="Arial, sans-serif" font-size="11" fill="#333333">
+    • Turquoise: Accents, highlights, interactive elements
+  </text>
+  <text x="680" y="256" font-family="Arial, sans-serif" font-size="11" fill="#333333">
+    • Gold: Premium features, special callouts, emphasis
+  </text>
+  <text x="680" y="274" font-family="Arial, sans-serif" font-size="11" fill="#333333">
+    • Green: Growth metrics, positive data, success states
+  </text>
+
+  <!-- Dark Uses -->
+  <text x="680" y="310" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#0A1628">
+    Dark Variations
+  </text>
+  <text x="680" y="330" font-family="Arial, sans-serif" font-size="11" fill="#333333">
+    • Midnight Blue: Backgrounds, dark mode, depth
+  </text>
+  <text x="680" y="348" font-family="Arial, sans-serif" font-size="11" fill="#333333">
+    • Night Green: Alternative dark background, grounding
+  </text>
+  <text x="680" y="366" font-family="Arial, sans-serif" font-size="11" fill="#333333">
+    • Teal Depth: Section dividers, rich backgrounds, wisdom
+  </text>
+
+  <!-- Neutrals Uses -->
+  <text x="680" y="402" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#1A1A1A">
+    Neutrals & Accents
+  </text>
+  <text x="680" y="422" font-family="Arial, sans-serif" font-size="11" fill="#333333">
+    • Ivory: Main background, light sections, breathing room
+  </text>
+  <text x="680" y="440" font-family="Arial, sans-serif" font-size="11" fill="#333333">
+    • Near Black: Body text, headings, strong contrast
+  </text>
+  <text x="680" y="458" font-family="Arial, sans-serif" font-size="11" fill="#333333">
+    • Crimson: Sparingly for urgency or special accent only
+  </text>
+  <text x="680" y="476" font-family="Arial, sans-serif" font-size="11" fill="#333333">
+    • Stone Gray: Secondary text, borders, subtle elements
+  </text>
+
+  <!-- Design Principles -->
+  <text x="680" y="512" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#1B4D5C">
+    Design Principles
+  </text>
+  <text x="680" y="532" font-family="Arial, sans-serif" font-size="11" fill="#333333">
+    • Use dark blues/greens for contemplative, grounding slides
+  </text>
+  <text x="680" y="550" font-family="Arial, sans-serif" font-size="11" fill="#333333">
+    • Gold sparingly - reserve for premium/sacred moments
+  </text>
+  <text x="680" y="568" font-family="Arial, sans-serif" font-size="11" fill="#333333">
+    • Avoid bright, saturated colors - keep palette muted
+  </text>
+  <text x="680" y="586" font-family="Arial, sans-serif" font-size="11" fill="#333333">
+    • Maintain generous white (ivory) space for breathing
+  </text>
+  <text x="680" y="604" font-family="Arial, sans-serif" font-size="11" fill="#333333">
+    • Crimson only as small accent - never for large areas
+  </text>
+
+  <!-- Pairings -->
+  <text x="680" y="640" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#007A3D">
+    Recommended Pairings
+  </text>
+  <text x="680" y="660" font-family="Arial, sans-serif" font-size="11" fill="#333333">
+    • Midnight Blue + Gold + Ivory (spiritual authority)
+  </text>
+  <text x="680" y="678" font-family="Arial, sans-serif" font-size="11" fill="#333333">
+    • Teal Depth + Turquoise + Ivory (calm, approachable)
+  </text>
+  <text x="680" y="696" font-family="Arial, sans-serif" font-size="11" fill="#333333">
+    • Cobalt Blue + Stone Gray + Ivory (professional data)
+  </text>
+  <text x="680" y="714" font-family="Arial, sans-serif" font-size="11" fill="#333333">
+    • Night Green + Gold + Ivory (sacred, grounded)
+  </text>
+  <text x="680" y="732" font-family="Arial, sans-serif" font-size="11" fill="#333333">
+    • Near Black + Ivory (maximum clarity for text)
+  </text>
+
+  <!-- Footer -->
+  <text x="50" y="795" font-family="Arial, sans-serif" font-size="10" fill="#999999">
+    The Rumi App · Design System v1.0 · December 2024
+  </text>
+</svg>

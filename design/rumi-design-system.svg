@@ -1,0 +1,462 @@
+<svg width="2400" height="3600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="spiritualGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0A1628;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1B4D5C;stop-opacity:1" />
+    </linearGradient>
+
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#D4AF37;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F0D787;stop-opacity:0.8" />
+    </linearGradient>
+
+    <radialGradient id="softGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#40E0D0;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#40E0D0;stop-opacity:0" />
+    </radialGradient>
+
+    <!-- Persian-inspired pattern -->
+    <pattern id="persianPattern" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <circle cx="20" cy="20" r="1.5" fill="#D4AF37" opacity="0.15"/>
+      <circle cx="0" cy="0" r="1.5" fill="#D4AF37" opacity="0.15"/>
+      <circle cx="40" cy="0" r="1.5" fill="#D4AF37" opacity="0.15"/>
+      <circle cx="0" cy="40" r="1.5" fill="#D4AF37" opacity="0.15"/>
+      <circle cx="40" cy="40" r="1.5" fill="#D4AF37" opacity="0.15"/>
+    </pattern>
+
+    <!-- Geometric pattern for borders -->
+    <pattern id="geometricBorder" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="10" x2="20" y2="10" stroke="#D4AF37" stroke-width="0.5" opacity="0.4"/>
+      <line x1="10" y1="0" x2="10" y2="20" stroke="#D4AF37" stroke-width="0.5" opacity="0.4"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="2400" height="3600" fill="#F8F6F0"/>
+
+  <!-- Header Section -->
+  <rect x="0" y="0" width="2400" height="200" fill="url(#spiritualGradient)"/>
+  <rect x="0" y="0" width="2400" height="200" fill="url(#persianPattern)"/>
+
+  <text x="120" y="110" font-family="Georgia, serif" font-size="72" font-weight="600" fill="#F8F6F0" style="letter-spacing: 2px;">
+    The Rumi App
+  </text>
+  <text x="120" y="155" font-family="Arial, sans-serif" font-size="28" fill="#40E0D0" style="letter-spacing: 4px;">
+    COMPLETE DESIGN SYSTEM
+  </text>
+
+  <!-- Decorative line -->
+  <line x1="120" y1="180" x2="2280" y2="180" stroke="url(#goldGradient)" stroke-width="2"/>
+
+  <!-- ==================== SECTION 1: COLOR PALETTE ==================== -->
+
+  <text x="120" y="280" font-family="Georgia, serif" font-size="48" font-weight="600" fill="#0A1628">
+    1. Color Palette
+  </text>
+  <text x="120" y="320" font-family="Arial, sans-serif" font-size="18" fill="#666666">
+    Islamic Art-Inspired · Contemplative · Professional
+  </text>
+
+  <!-- Primary Colors Row -->
+  <text x="120" y="380" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#2E5090">
+    PRIMARY COLORS
+  </text>
+
+  <!-- Cobalt Blue -->
+  <rect x="120" y="410" width="280" height="280" fill="#2E5090" rx="16"/>
+  <circle cx="260" cy="550" r="60" fill="url(#softGlow)"/>
+  <text x="260" y="720" font-family="monospace" font-size="16" font-weight="700" fill="#1a1a1a" text-anchor="middle">#2E5090</text>
+  <text x="260" y="745" font-family="Arial, sans-serif" font-size="14" fill="#666666" text-anchor="middle">Cobalt Blue</text>
+  <text x="260" y="765" font-family="Arial, sans-serif" font-size="11" fill="#999999" text-anchor="middle" font-style="italic">Heaven · Spirituality</text>
+
+  <!-- Turquoise -->
+  <rect x="440" y="410" width="280" height="280" fill="#40E0D0" rx="16"/>
+  <circle cx="580" cy="550" r="60" fill="#ffffff" opacity="0.2"/>
+  <text x="580" y="720" font-family="monospace" font-size="16" font-weight="700" fill="#1a1a1a" text-anchor="middle">#40E0D0</text>
+  <text x="580" y="745" font-family="Arial, sans-serif" font-size="14" fill="#666666" text-anchor="middle">Turquoise</text>
+  <text x="580" y="765" font-family="Arial, sans-serif" font-size="11" fill="#999999" text-anchor="middle" font-style="italic">Eternity · Sky</text>
+
+  <!-- Gold -->
+  <rect x="760" y="410" width="280" height="280" fill="url(#goldGradient)" rx="16"/>
+  <circle cx="900" cy="550" r="60" fill="#ffffff" opacity="0.15"/>
+  <text x="900" y="720" font-family="monospace" font-size="16" font-weight="700" fill="#1a1a1a" text-anchor="middle">#D4AF37</text>
+  <text x="900" y="745" font-family="Arial, sans-serif" font-size="14" fill="#666666" text-anchor="middle">Gold</text>
+  <text x="900" y="765" font-family="Arial, sans-serif" font-size="11" fill="#999999" text-anchor="middle" font-style="italic">Divine Light</text>
+
+  <!-- Islamic Green -->
+  <rect x="1080" y="410" width="280" height="280" fill="#007A3D" rx="16"/>
+  <circle cx="1220" cy="550" r="60" fill="#ffffff" opacity="0.1"/>
+  <text x="1220" y="720" font-family="monospace" font-size="16" font-weight="700" fill="#1a1a1a" text-anchor="middle">#007A3D</text>
+  <text x="1220" y="745" font-family="Arial, sans-serif" font-size="14" fill="#666666" text-anchor="middle">Islamic Green</text>
+  <text x="1220" y="765" font-family="Arial, sans-serif" font-size="11" fill="#999999" text-anchor="middle" font-style="italic">Paradise · Life</text>
+
+  <!-- Dark Variations -->
+  <text x="120" y="850" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#0A1628">
+    DARK VARIATIONS (Night)
+  </text>
+
+  <!-- Midnight Blue -->
+  <rect x="120" y="880" width="220" height="220" fill="#0A1628" rx="16"/>
+  <text x="230" y="1130" font-family="monospace" font-size="14" font-weight="700" fill="#1a1a1a" text-anchor="middle">#0A1628</text>
+  <text x="230" y="1150" font-family="Arial, sans-serif" font-size="12" fill="#666666" text-anchor="middle">Midnight Blue</text>
+
+  <!-- Night Green -->
+  <rect x="380" y="880" width="220" height="220" fill="#0D1F17" rx="16"/>
+  <text x="490" y="1130" font-family="monospace" font-size="14" font-weight="700" fill="#1a1a1a" text-anchor="middle">#0D1F17</text>
+  <text x="490" y="1150" font-family="Arial, sans-serif" font-size="12" fill="#666666" text-anchor="middle">Night Green</text>
+
+  <!-- Teal Depth -->
+  <rect x="640" y="880" width="220" height="220" fill="#1B4D5C" rx="16"/>
+  <text x="750" y="1130" font-family="monospace" font-size="14" font-weight="700" fill="#1a1a1a" text-anchor="middle">#1B4D5C</text>
+  <text x="750" y="1150" font-family="Arial, sans-serif" font-size="12" fill="#666666" text-anchor="middle">Teal Depth</text>
+
+  <!-- Neutrals -->
+  <text x="920" y="850" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#1a1a1a">
+    NEUTRALS & ACCENTS
+  </text>
+
+  <!-- Ivory -->
+  <rect x="920" y="880" width="180" height="220" fill="#F8F6F0" rx="16" stroke="#D4AF37" stroke-width="2"/>
+  <text x="1010" y="1130" font-family="monospace" font-size="14" font-weight="700" fill="#1a1a1a" text-anchor="middle">#F8F6F0</text>
+  <text x="1010" y="1150" font-family="Arial, sans-serif" font-size="12" fill="#666666" text-anchor="middle">Ivory</text>
+
+  <!-- Near Black -->
+  <rect x="1140" y="880" width="180" height="220" fill="#1a1a1a" rx="16"/>
+  <text x="1230" y="1130" font-family="monospace" font-size="14" font-weight="700" fill="#F8F6F0" text-anchor="middle">#1A1A1A</text>
+  <text x="1230" y="1150" font-family="Arial, sans-serif" font-size="12" fill="#8B9299" text-anchor="middle">Near Black</text>
+
+  <!-- Crimson -->
+  <rect x="1360" y="880" width="180" height="220" fill="#A7414A" rx="16"/>
+  <text x="1450" y="1130" font-family="monospace" font-size="14" font-weight="700" fill="#F8F6F0" text-anchor="middle">#A7414A</text>
+  <text x="1450" y="1150" font-family="Arial, sans-serif" font-size="12" fill="#F8F6F0" text-anchor="middle">Crimson</text>
+
+  <!-- Stone Gray -->
+  <rect x="1580" y="880" width="180" height="220" fill="#8B9299" rx="16"/>
+  <text x="1670" y="1130" font-family="monospace" font-size="14" font-weight="700" fill="#F8F6F0" text-anchor="middle">#8B9299</text>
+  <text x="1670" y="1150" font-family="Arial, sans-serif" font-size="12" fill="#F8F6F0" text-anchor="middle">Stone Gray</text>
+
+  <!-- Divider -->
+  <line x1="120" y1="1220" x2="2280" y2="1220" stroke="#D4AF37" stroke-width="1" opacity="0.3"/>
+
+  <!-- ==================== SECTION 2: TYPOGRAPHY ==================== -->
+
+  <text x="120" y="1310" font-family="Georgia, serif" font-size="48" font-weight="600" fill="#0A1628">
+    2. Typography System
+  </text>
+  <text x="120" y="1350" font-family="Arial, sans-serif" font-size="18" fill="#666666">
+    Cormorant Garamond · Inter · Lora
+  </text>
+
+  <!-- Font Examples -->
+  <rect x="120" y="1380" width="1050" height="180" fill="url(#spiritualGradient)" rx="16"/>
+  <text x="180" y="1450" font-family="Georgia, serif" font-size="56" font-weight="600" fill="#F8F6F0" style="letter-spacing: -1px;">
+    Rumi as a Living Teacher
+  </text>
+  <text x="180" y="1490" font-family="Arial, sans-serif" font-size="14" fill="#40E0D0">
+    Cormorant Garamond SemiBold · 56px · Slide Titles
+  </text>
+  <text x="180" y="1530" font-family="Arial, sans-serif" font-size="20" fill="#F8F6F0" opacity="0.9">
+    The sanctuary for modern seekers, where ancient wisdom meets daily practice.
+  </text>
+
+  <!-- Body Text Example -->
+  <rect x="1230" y="1380" width="1050" height="180" fill="#F8F6F0" rx="16" stroke="#2E5090" stroke-width="2"/>
+  <text x="1290" y="1440" font-family="Arial, sans-serif" font-size="16" fill="#1a1a1a" style="line-height: 1.6;">
+    <tspan x="1290" dy="0">Inter is our primary sans-serif for all business</tspan>
+    <tspan x="1290" dy="28">content: market data, revenue models, competitive</tspan>
+    <tspan x="1290" dy="28">analysis. Clean, modern, professional. Works across</tspan>
+    <tspan x="1290" dy="28">all platforms and devices perfectly.</tspan>
+  </text>
+
+  <!-- Divider -->
+  <line x1="120" y1="1620" x2="2280" y2="1620" stroke="#D4AF37" stroke-width="1" opacity="0.3"/>
+
+  <!-- ==================== SECTION 3: ICONS ==================== -->
+
+  <text x="120" y="1710" font-family="Georgia, serif" font-size="48" font-weight="600" fill="#0A1628">
+    3. Feature Icons
+  </text>
+  <text x="120" y="1750" font-family="Arial, sans-serif" font-size="18" fill="#666666">
+    Simple · Elegant · Culturally Appropriate
+  </text>
+
+  <!-- Daily Wisdom Icon -->
+  <g id="dailyWisdom">
+    <circle cx="300" cy="1900" r="80" fill="#2E5090" opacity="0.1"/>
+    <circle cx="300" cy="1900" r="60" fill="none" stroke="#2E5090" stroke-width="3"/>
+    <circle cx="300" cy="1900" r="8" fill="#D4AF37"/>
+    <path d="M 300 1900 L 300 1860" stroke="#2E5090" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 300 1900 L 320 1920" stroke="#2E5090" stroke-width="3" stroke-linecap="round"/>
+    <text x="300" y="2020" font-family="Arial, sans-serif" font-size="16" font-weight="600" fill="#1a1a1a" text-anchor="middle">Daily Wisdom</text>
+    <text x="300" y="2040" font-family="Arial, sans-serif" font-size="12" fill="#666666" text-anchor="middle">Verse of the Day</text>
+  </g>
+
+  <!-- Contemplation Mode Icon -->
+  <g id="contemplationMode">
+    <circle cx="580" cy="1900" r="80" fill="#1B4D5C" opacity="0.1"/>
+    <path d="M 580 1940 A 40 40 0 0 1 580 1860" fill="none" stroke="#1B4D5C" stroke-width="3"/>
+    <circle cx="570" cy="1890" r="4" fill="#40E0D0"/>
+    <circle cx="590" cy="1890" r="4" fill="#40E0D0"/>
+    <circle cx="565" cy="1910" r="3" fill="#40E0D0" opacity="0.6"/>
+    <circle cx="595" cy="1910" r="3" fill="#40E0D0" opacity="0.6"/>
+    <text x="580" y="2020" font-family="Arial, sans-serif" font-size="16" font-weight="600" fill="#1a1a1a" text-anchor="middle">Contemplation</text>
+    <text x="580" y="2040" font-family="Arial, sans-serif" font-size="12" fill="#666666" text-anchor="middle">Silent Reflection</text>
+  </g>
+
+  <!-- Guided Journeys Icon -->
+  <g id="guidedJourneys">
+    <circle cx="860" cy="1900" r="80" fill="#007A3D" opacity="0.1"/>
+    <path d="M 860 1860 L 860 1940" stroke="#007A3D" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 820 1900 L 900 1900" stroke="#007A3D" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="860" cy="1900" r="25" fill="none" stroke="#007A3D" stroke-width="2"/>
+    <polygon points="860,1885 870,1900 860,1915" fill="#D4AF37"/>
+    <text x="860" y="2020" font-family="Arial, sans-serif" font-size="16" font-weight="600" fill="#1a1a1a" text-anchor="middle">Guided Journeys</text>
+    <text x="860" y="2040" font-family="Arial, sans-serif" font-size="12" fill="#666666" text-anchor="middle">Thematic Paths</text>
+  </g>
+
+  <!-- The Masnavi Icon -->
+  <g id="masnavi">
+    <circle cx="1140" cy="1900" r="80" fill="#D4AF37" opacity="0.1"/>
+    <rect x="1110" y="1870" width="60" height="80" fill="none" stroke="#D4AF37" stroke-width="3" rx="4"/>
+    <line x1="1125" y1="1890" x2="1155" y2="1890" stroke="#D4AF37" stroke-width="2"/>
+    <line x1="1125" y1="1910" x2="1155" y2="1910" stroke="#D4AF37" stroke-width="2"/>
+    <line x1="1125" y1="1930" x2="1155" y2="1930" stroke="#D4AF37" stroke-width="2"/>
+    <text x="1140" y="2020" font-family="Arial, sans-serif" font-size="16" font-weight="600" fill="#1a1a1a" text-anchor="middle">The Masnavi</text>
+    <text x="1140" y="2040" font-family="Arial, sans-serif" font-size="12" fill="#666666" text-anchor="middle">Complete Library</text>
+  </g>
+
+  <!-- UI Icons -->
+  <text x="1400" y="1820" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#1a1a1a">
+    UI ELEMENTS
+  </text>
+
+  <!-- Checkmark -->
+  <circle cx="1450" cy="1890" r="25" fill="#007A3D"/>
+  <path d="M 1440 1890 L 1448 1898 L 1465 1880" fill="none" stroke="#F8F6F0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="1450" y="1940" font-family="Arial, sans-serif" font-size="11" fill="#666666" text-anchor="middle">Check</text>
+
+  <!-- Arrow Right -->
+  <circle cx="1530" cy="1890" r="25" fill="#2E5090"/>
+  <path d="M 1520 1890 L 1540 1890 M 1533 1883 L 1540 1890 L 1533 1897" fill="none" stroke="#F8F6F0" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="1530" y="1940" font-family="Arial, sans-serif" font-size="11" fill="#666666" text-anchor="middle">Arrow</text>
+
+  <!-- Bullet Point -->
+  <circle cx="1610" cy="1890" r="25" fill="#8B9299"/>
+  <circle cx="1610" cy="1890" r="5" fill="#F8F6F0"/>
+  <text x="1610" y="1940" font-family="Arial, sans-serif" font-size="11" fill="#666666" text-anchor="middle">Bullet</text>
+
+  <!-- Plus -->
+  <circle cx="1690" cy="1890" r="25" fill="#40E0D0"/>
+  <path d="M 1690 1880 L 1690 1900 M 1680 1890 L 1700 1890" fill="none" stroke="#F8F6F0" stroke-width="3" stroke-linecap="round"/>
+  <text x="1690" y="1940" font-family="Arial, sans-serif" font-size="11" fill="#666666" text-anchor="middle">Plus</text>
+
+  <!-- Divider -->
+  <line x1="120" y1="2100" x2="2280" y2="2100" stroke="#D4AF37" stroke-width="1" opacity="0.3"/>
+
+  <!-- ==================== SECTION 4: DATA VISUALIZATION ==================== -->
+
+  <text x="120" y="2190" font-family="Georgia, serif" font-size="48" font-weight="600" fill="#0A1628">
+    4. Data Visualization
+  </text>
+  <text x="120" y="2230" font-family="Arial, sans-serif" font-size="18" fill="#666666">
+    Charts · Tables · Infographics
+  </text>
+
+  <!-- Bar Chart Example -->
+  <rect x="120" y="2260" width="700" height="400" fill="#F8F6F0" rx="16" stroke="#E0E0E0" stroke-width="2"/>
+  <text x="180" y="2310" font-family="Arial, sans-serif" font-size="18" font-weight="600" fill="#1a1a1a">Market Size Growth</text>
+
+  <!-- Y-axis labels -->
+  <text x="160" y="2380" font-family="Arial, sans-serif" font-size="11" fill="#666666" text-anchor="end">$5B</text>
+  <text x="160" y="2470" font-family="Arial, sans-serif" font-size="11" fill="#666666" text-anchor="end">$3B</text>
+  <text x="160" y="2560" font-family="Arial, sans-serif" font-size="11" fill="#666666" text-anchor="end">$1B</text>
+  <text x="160" y="2640" font-family="Arial, sans-serif" font-size="11" fill="#666666" text-anchor="end">$0</text>
+
+  <!-- Grid lines -->
+  <line x1="180" y1="2370" x2="780" y2="2370" stroke="#E0E0E0" stroke-width="1"/>
+  <line x1="180" y1="2460" x2="780" y2="2460" stroke="#E0E0E0" stroke-width="1"/>
+  <line x1="180" y1="2550" x2="780" y2="2550" stroke="#E0E0E0" stroke-width="1"/>
+  <line x1="180" y1="2640" x2="780" y2="2640" stroke="#E0E0E0" stroke-width="2"/>
+
+  <!-- Bars -->
+  <rect x="220" y="2490" width="100" height="150" fill="#2E5090" rx="4"/>
+  <text x="270" y="2475" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#2E5090" text-anchor="middle">$2.1B</text>
+  <text x="270" y="2660" font-family="Arial, sans-serif" font-size="12" fill="#666666" text-anchor="middle">2023</text>
+
+  <rect x="370" y="2430" width="100" height="210" fill="#007A3D" rx="4"/>
+  <text x="420" y="2415" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#007A3D" text-anchor="middle">$3.2B</text>
+  <text x="420" y="2660" font-family="Arial, sans-serif" font-size="12" fill="#666666" text-anchor="middle">2024</text>
+
+  <rect x="520" y="2370" width="100" height="270" fill="#40E0D0" rx="4"/>
+  <text x="570" y="2355" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#1B4D5C" text-anchor="middle">$4.2B</text>
+  <text x="570" y="2660" font-family="Arial, sans-serif" font-size="12" fill="#666666" text-anchor="middle">2025</text>
+
+  <rect x="670" y="2310" width="100" height="330" fill="#D4AF37" rx="4"/>
+  <text x="720" y="2295" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#1B4D5C" text-anchor="middle">$5.8B</text>
+  <text x="720" y="2660" font-family="Arial, sans-serif" font-size="12" fill="#666666" text-anchor="middle">2026</text>
+
+  <!-- Comparison Table -->
+  <rect x="880" y="2260" width="700" height="400" fill="#F8F6F0" rx="16" stroke="#E0E0E0" stroke-width="2"/>
+  <text x="940" y="2310" font-family="Arial, sans-serif" font-size="18" font-weight="600" fill="#1a1a1a">Free vs. Premium</text>
+
+  <!-- Table Header -->
+  <rect x="920" y="2340" width="300" height="50" fill="#2E5090" rx="8"/>
+  <rect x="1240" y="2340" width="300" height="50" fill="#D4AF37" rx="8"/>
+  <text x="1070" y="2372" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#F8F6F0" text-anchor="middle">FREE</text>
+  <text x="1390" y="2372" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#1a1a1a" text-anchor="middle">PREMIUM</text>
+
+  <!-- Table Rows -->
+  <rect x="920" y="2410" width="300" height="60" fill="#ffffff" stroke="#E0E0E0" stroke-width="1"/>
+  <rect x="1240" y="2410" width="300" height="60" fill="#ffffff" stroke="#E0E0E0" stroke-width="1"/>
+  <text x="1070" y="2445" font-family="Arial, sans-serif" font-size="14" fill="#666666" text-anchor="middle">Daily Verse</text>
+  <text x="1390" y="2445" font-family="Arial, sans-serif" font-size="14" fill="#007A3D" text-anchor="middle">✓ Unlimited</text>
+
+  <rect x="920" y="2490" width="300" height="60" fill="#F8F6F0" stroke="#E0E0E0" stroke-width="1"/>
+  <rect x="1240" y="2490" width="300" height="60" fill="#F8F6F0" stroke="#E0E0E0" stroke-width="1"/>
+  <text x="1070" y="2525" font-family="Arial, sans-serif" font-size="14" fill="#666666" text-anchor="middle">Guided Journeys</text>
+  <text x="1390" y="2525" font-family="Arial, sans-serif" font-size="14" fill="#007A3D" text-anchor="middle">✓ All Themes</text>
+
+  <rect x="920" y="2570" width="300" height="60" fill="#ffffff" stroke="#E0E0E0" stroke-width="1"/>
+  <rect x="1240" y="2570" width="300" height="60" fill="#ffffff" stroke="#E0E0E0" stroke-width="1"/>
+  <text x="1070" y="2605" font-family="Arial, sans-serif" font-size="14" fill="#A7414A" text-anchor="middle">✗ Full Masnavi</text>
+  <text x="1390" y="2605" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#007A3D" text-anchor="middle">✓ Complete</text>
+
+  <!-- Divider -->
+  <line x1="120" y1="2720" x2="2280" y2="2720" stroke="#D4AF37" stroke-width="1" opacity="0.3"/>
+
+  <!-- ==================== SECTION 5: LAYOUT COMPONENTS ==================== -->
+
+  <text x="120" y="2810" font-family="Georgia, serif" font-size="48" font-weight="600" fill="#0A1628">
+    5. Layout Components
+  </text>
+  <text x="120" y="2850" font-family="Arial, sans-serif" font-size="18" fill="#666666">
+    Grids · Templates · Containers
+  </text>
+
+  <!-- Grid System -->
+  <rect x="120" y="2880" width="520" height="400" fill="#F8F6F0" rx="16" stroke="#2E5090" stroke-width="2"/>
+  <text x="180" y="2930" font-family="Arial, sans-serif" font-size="16" font-weight="600" fill="#1a1a1a">12-Column Grid System</text>
+
+  <!-- Grid columns -->
+  <g opacity="0.3">
+    <rect x="180" y="2960" width="30" height="280" fill="#2E5090"/>
+    <rect x="220" y="2960" width="30" height="280" fill="#2E5090"/>
+    <rect x="260" y="2960" width="30" height="280" fill="#2E5090"/>
+    <rect x="300" y="2960" width="30" height="280" fill="#2E5090"/>
+    <rect x="340" y="2960" width="30" height="280" fill="#2E5090"/>
+    <rect x="380" y="2960" width="30" height="280" fill="#2E5090"/>
+    <rect x="420" y="2960" width="30" height="280" fill="#2E5090"/>
+    <rect x="460" y="2960" width="30" height="280" fill="#2E5090"/>
+    <rect x="500" y="2960" width="30" height="280" fill="#2E5090"/>
+    <rect x="540" y="2960" width="30" height="280" fill="#2E5090"/>
+  </g>
+  <text x="380" y="3270" font-family="Arial, sans-serif" font-size="12" fill="#666666" text-anchor="middle">16:9 Aspect Ratio · Generous Margins</text>
+
+  <!-- Callout Box -->
+  <rect x="700" y="2880" width="480" height="180" fill="url(#spiritualGradient)" rx="16"/>
+  <rect x="700" y="2880" width="480" height="180" fill="url(#persianPattern)" rx="16"/>
+  <line x1="720" y1="2900" x2="720" y2="3040" stroke="#D4AF37" stroke-width="4"/>
+  <text x="750" y="2940" font-family="Georgia, serif" font-size="20" font-weight="600" fill="#F8F6F0" style="letter-spacing: 0.5px;">
+    "Out beyond ideas of wrongdoing
+  </text>
+  <text x="750" y="2975" font-family="Georgia, serif" font-size="20" font-weight="600" fill="#F8F6F0" style="letter-spacing: 0.5px;">
+    and rightdoing, there is a field.
+  </text>
+  <text x="750" y="3010" font-family="Georgia, serif" font-size="20" font-weight="600" fill="#F8F6F0" style="letter-spacing: 0.5px;">
+    I'll meet you there."
+  </text>
+  <text x="750" y="3040" font-family="Arial, sans-serif" font-size="12" fill="#40E0D0">— Rumi</text>
+
+  <!-- Text Block Container -->
+  <rect x="700" y="3100" width="480" height="180" fill="#ffffff" rx="16" stroke="#E0E0E0" stroke-width="2"/>
+  <rect x="720" y="3120" width="440" height="20" fill="#2E5090" opacity="0.2" rx="4"/>
+  <rect x="720" y="3150" width="420" height="8" fill="#8B9299" opacity="0.2" rx="2"/>
+  <rect x="720" y="3168" width="440" height="8" fill="#8B9299" opacity="0.2" rx="2"/>
+  <rect x="720" y="3186" width="380" height="8" fill="#8B9299" opacity="0.2" rx="2"/>
+  <rect x="720" y="3210" width="440" height="8" fill="#8B9299" opacity="0.2" rx="2"/>
+  <rect x="720" y="3228" width="400" height="8" fill="#8B9299" opacity="0.2" rx="2"/>
+  <rect x="720" y="3246" width="420" height="8" fill="#8B9299" opacity="0.2" rx="2"/>
+  <text x="940" y="3270" font-family="Arial, sans-serif" font-size="11" fill="#666666" text-anchor="middle">Clean Text Block</text>
+
+  <!-- Timeline Component -->
+  <rect x="1240" y="2880" width="1040" height="400" fill="#F8F6F0" rx="16" stroke="#E0E0E0" stroke-width="2"/>
+  <text x="1300" y="2930" font-family="Arial, sans-serif" font-size="16" font-weight="600" fill="#1a1a1a">Roadmap Timeline</text>
+
+  <!-- Timeline line -->
+  <line x1="1300" y1="3020" x2="2220" y2="3020" stroke="#2E5090" stroke-width="3"/>
+
+  <!-- Milestone 1 -->
+  <circle cx="1420" cy="3020" r="12" fill="#2E5090"/>
+  <line x1="1420" y1="3032" x2="1420" y2="3080" stroke="#2E5090" stroke-width="2"/>
+  <rect x="1360" y="3090" width="120" height="80" fill="#2E5090" rx="8"/>
+  <text x="1420" y="3120" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#F8F6F0" text-anchor="middle">Q1 2025</text>
+  <text x="1420" y="3140" font-family="Arial, sans-serif" font-size="10" fill="#F8F6F0" text-anchor="middle">Beta Launch</text>
+  <text x="1420" y="3155" font-family="Arial, sans-serif" font-size="10" fill="#40E0D0" text-anchor="middle">1000 users</text>
+
+  <!-- Milestone 2 -->
+  <circle cx="1680" cy="3020" r="12" fill="#007A3D"/>
+  <line x1="1680" y1="3032" x2="1680" y2="3080" stroke="#007A3D" stroke-width="2"/>
+  <rect x="1620" y="3090" width="120" height="80" fill="#007A3D" rx="8"/>
+  <text x="1680" y="3120" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#F8F6F0" text-anchor="middle">Q2 2025</text>
+  <text x="1680" y="3140" font-family="Arial, sans-serif" font-size="10" fill="#F8F6F0" text-anchor="middle">Public Launch</text>
+  <text x="1680" y="3155" font-family="Arial, sans-serif" font-size="10" fill="#40E0D0" text-anchor="middle">10K users</text>
+
+  <!-- Milestone 3 -->
+  <circle cx="1940" cy="3020" r="12" fill="#D4AF37"/>
+  <line x1="1940" y1="3032" x2="1940" y2="3080" stroke="#D4AF37" stroke-width="2"/>
+  <rect x="1880" y="3090" width="120" height="80" fill="#D4AF37" rx="8"/>
+  <text x="1940" y="3120" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#1a1a1a" text-anchor="middle">Q4 2025</text>
+  <text x="1940" y="3140" font-family="Arial, sans-serif" font-size="10" fill="#1a1a1a" text-anchor="middle">Premium</text>
+  <text x="1940" y="3155" font-family="Arial, sans-serif" font-size="10" fill="#1B4D5C" text-anchor="middle">Revenue</text>
+
+  <!-- Milestone 4 -->
+  <circle cx="2200" cy="3020" r="12" fill="#40E0D0"/>
+  <line x1="2200" y1="3032" x2="2200" y2="3080" stroke="#40E0D0" stroke-width="2"/>
+  <rect x="2140" y="3090" width="120" height="80" fill="#40E0D0" rx="8"/>
+  <text x="2200" y="3120" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#1a1a1a" text-anchor="middle">Q2 2026</text>
+  <text x="2200" y="3140" font-family="Arial, sans-serif" font-size="10" fill="#1a1a1a" text-anchor="middle">Platform</text>
+  <text x="2200" y="3155" font-family="Arial, sans-serif" font-size="10" fill="#1B4D5C" text-anchor="middle">Expansion</text>
+
+  <!-- Progress Bar -->
+  <text x="1300" y="3230" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#1a1a1a">Progress Indicator</text>
+  <rect x="1300" y="3240" width="920" height="20" fill="#E0E0E0" rx="10"/>
+  <rect x="1300" y="3240" width="650" height="20" fill="#007A3D" rx="10"/>
+  <text x="1760" y="3255" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#F8F6F0" text-anchor="middle">70% Complete</text>
+
+  <!-- Divider -->
+  <line x1="120" y1="3340" x2="2280" y2="3340" stroke="#D4AF37" stroke-width="1" opacity="0.3"/>
+
+  <!-- ==================== SECTION 6: GRAPHIC ELEMENTS ==================== -->
+
+  <text x="120" y="3430" font-family="Georgia, serif" font-size="48" font-weight="600" fill="#0A1628">
+    6. Graphic Elements & Patterns
+  </text>
+  <text x="120" y="3470" font-family="Arial, sans-serif" font-size="18" fill="#666666">
+    Backgrounds · Overlays · Decorative Elements
+  </text>
+
+  <!-- Gradient Background Example -->
+  <rect x="120" y="3500" width="460" height="80" fill="url(#spiritualGradient)" rx="12"/>
+  <text x="350" y="3545" font-family="Arial, sans-serif" font-size="14" fill="#F8F6F0" text-anchor="middle">Spiritual Gradient Background</text>
+
+  <!-- Persian Pattern Background -->
+  <rect x="620" y="3500" width="460" height="80" fill="#F8F6F0" rx="12" stroke="#D4AF37" stroke-width="2"/>
+  <rect x="620" y="3500" width="460" height="80" fill="url(#persianPattern)" rx="12"/>
+  <text x="850" y="3545" font-family="Arial, sans-serif" font-size="14" fill="#1a1a1a" text-anchor="middle">Persian-Inspired Pattern</text>
+
+  <!-- Gold Border Frame -->
+  <rect x="1120" y="3500" width="460" height="80" fill="#F8F6F0" rx="12"/>
+  <rect x="1120" y="3500" width="460" height="80" fill="url(#geometricBorder)" rx="12"/>
+  <rect x="1128" y="3508" width="444" height="64" fill="none" stroke="url(#goldGradient)" stroke-width="3" rx="8"/>
+  <text x="1350" y="3545" font-family="Arial, sans-serif" font-size="14" fill="#1a1a1a" text-anchor="middle">Geometric Border Frame</text>
+
+  <!-- Soft Glow Effect -->
+  <rect x="1620" y="3500" width="460" height="80" fill="#0A1628" rx="12"/>
+  <circle cx="1850" cy="3540" r="50" fill="url(#softGlow)"/>
+  <text x="1850" y="3545" font-family="Arial, sans-serif" font-size="14" fill="#40E0D0" text-anchor="middle">Soft Glow Overlay</text>
+
+  <!-- Footer -->
+  <rect x="0" y="3590" width="2400" height="10" fill="url(#goldGradient)"/>
+
+</svg>
