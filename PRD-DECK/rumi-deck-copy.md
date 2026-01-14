@@ -375,7 +375,7 @@ Each tradition becomes a change-maker—channeling resources and wisdom to addre
 - Target: [X]K downloads, [X]K active users
 
 ### **Q[X] 202[X]** — Growth
-- Hit [X]K users, $[X]K ARR
+- Hit 300K users, $120K ARR
 - Launch [X] guided journeys
 - Begin [Hafez/other] app development
 
