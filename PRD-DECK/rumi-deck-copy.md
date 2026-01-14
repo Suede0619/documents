@@ -371,7 +371,7 @@ Each tradition becomes a change-maker—channeling resources and wisdom to addre
 
 ### **Q[X] 202[X]** — Public Launch
 - iOS and Android release
-- Press campaign: [target publications]
+- Press campaign: Well+Good, Psychology Today, Lion's Roar, Mindful Magazine
 - Target: [X]K downloads, [X]K active users
 
 ### **Q[X] 202[X]** — Growth
