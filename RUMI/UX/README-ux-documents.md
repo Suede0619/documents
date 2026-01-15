@@ -169,11 +169,10 @@ Post-Launch: Use User Testing Logic (Document #2)
 ```
 
 #### What you get:
-- 10-12 core screens (iOS only)
-- Essential features only:
-  - Daily verse (Farsi, English, modern retelling)
-  - 5 guided journeys (not 15+)
-  - Searchable Masnavi library (basic)
+- 8-10 core screens (iOS only)
+- Essential features only (MVP 1):
+  - Daily verse (Farsi, English, Modern Retelling/Reimagining)
+  - 5-6 guided journeys
   - Clear paywall
 - Simplified design system (colors, fonts, spacing)
 - Clickable prototype for demos
@@ -181,10 +180,12 @@ Post-Launch: Use User Testing Logic (Document #2)
 
 #### What you're NOT building (yet):
 - ❌ Android app (iOS first)
-- ❌ Audio narration (text-first)
-- ❌ Social features
-- ❌ Advanced personalization/AI
+- ❌ Searchable Masnavi Library (Phase 2)
+- ❌ Chapter of Poetry / Extended passages (Phase 2)
 - ❌ Save to collections (Phase 2)
+- ❌ Audio narration (Phase 2)
+- ❌ Social features (Phase 2)
+- ❌ Advanced personalization/AI (Phase 2)
 
 #### Budget required:
 $0 - Uses founder time only, free tools (Figma free tier, Firebase Analytics)
@@ -204,7 +205,7 @@ $0 - Uses founder time only, free tools (Figma free tier, Firebase Analytics)
 │ Goal: Launch minimal but beautiful app to validate concept  │
 │                                                              │
 │ Deliverables:                                               │
-│ ✓ 10-12 core screens designed                              │
+│ ✓ 8-10 core screens designed                               │
 │ ✓ iOS app built and launched                               │
 │ ✓ Basic analytics tracking set up                          │
 │ ✓ 100-1,000 early users acquired                           │
@@ -341,8 +342,8 @@ You don't need to read User Testing Logic document separately. Just follow the L
 | **Timeline** | 4-6 weeks | Ongoing (2-week sprints) | 12-16 weeks |
 | **Stage** | Pre-seed | Post-launch | Post-seed funding |
 | **Budget** | $0 (founder time) | $0-200/month (analytics) | $20K-50K (if hiring) |
-| **Screens** | 10-12 core screens | N/A (testing existing) | 30-40 screens |
-| **Features** | Daily verse, 5 journeys, basic library | Optimize existing features | Full feature set + Android + audio |
+| **Screens** | 8-10 core screens | N/A (testing existing) | 30-40 screens |
+| **Features** | Daily verse (3 formats), 5-6 journeys | Optimize existing features | Full feature set + Library + Android + audio |
 | **Research** | Light competitive audit | A/B testing with real users | Full user interviews (10-15 people) |
 | **Design System** | Basics only (colors, fonts, spacing) | N/A | Complete (motion, accessibility, tokens) |
 | **Platform** | iOS only | iOS (Android later) | iOS + Android |
@@ -386,7 +387,7 @@ You don't need to read User Testing Logic document separately. Just follow the L
 
 ### Week 2: Information Architecture
 - [ ] Follow Week 2 tasks in Lean MVP Plan
-- [ ] Deliverable: 10-12 wireframes + team sign-off
+- [ ] Deliverable: 8-10 wireframes + team sign-off
 
 ### Week 3: Visual Design
 - [ ] Follow Week 3 tasks in Lean MVP Plan
@@ -485,7 +486,7 @@ Think of them as a three-stage roadmap for your UX journey.
 
 ### Q: What if our timeline slips?
 **A:** The Lean MVP Plan has contingencies:
-- **If Week 1-2 takes longer:** Reduce screens (8 core screens instead of 12)
+- **If Week 1-2 takes longer:** Reduce screens (6-7 core screens instead of 8-10)
 - **If Week 3 takes longer:** Use iOS design templates instead of designing from scratch
 - **If Week 4 takes longer:** Skip guerrilla testing, go straight to handoff
 

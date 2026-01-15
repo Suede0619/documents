@@ -243,21 +243,20 @@ Map the critical user journeys from entry to goal completion.
 **What to Do:**
 Define the entire app's information architecture.
 
-**Proposed Sitemap:**
+**MVP 1 Sitemap:**
 
 ```
-ROOT
+ROOT (3 Bottom Tabs)
 ├── Home (Today's Verse)
 │   ├── Daily Verse Detail
-│   │   ├── Farsi View
-│   │   ├── English Translation View
-│   │   ├── Modern Retelling View
-│   │   ├── Contemplation Mode (fullscreen, distraction-free)
-│   │   └── Save to Collection (action)
+│   │   ├── Farsi (original text)
+│   │   ├── English Translation (scholarly)
+│   │   ├── Modern Retelling / Reimagining (first-person, accessible)
+│   │   └── Contemplation Mode (fullscreen, distraction-free)
 │   └── [Upsell card: Try a Guided Journey]
 │
 ├── Journeys
-│   ├── Journey Library (browse by theme)
+│   ├── Journey Library (5-6 journeys at launch)
 │   ├── Journey Detail/Preview
 │   ├── Active Journey (5-step experience)
 │   │   ├── Step 1: Verse
@@ -267,49 +266,51 @@ ROOT
 │   │   └── Step 5: Integration/Closing
 │   └── Completed Journeys (history)
 │
-├── Library (The Masnavi)
+└── Profile
+    ├── Subscription (manage, cancel, restore purchases)
+    ├── Settings
+    │   ├── Notifications (daily verse time, preferences)
+    │   ├── Appearance (dark mode)
+    │   └── Account (email, password, delete account)
+    ├── About (Rumi's story, Sufi tradition, credits)
+    ├── Support/FAQ
+    └── Privacy Policy / Terms
+
+**Paywall Modal** (triggered contextually)
+├── Feature Comparison (Free vs. Premium)
+├── Pricing Plans (Monthly $8.88, Annual $84)
+├── Free Trial (7 days)
+└── Purchase/Subscribe
+```
+
+**Phase 2 Features (Post-MVP 1):**
+```
+├── Library (The Masnavi) - PHASE 2
 │   ├── Browse by Book (Books 1-6)
 │   ├── Browse by Chapter
-│   ├── Browse by Theme (love, separation, teacher, journey, grief, etc.)
+│   ├── Browse by Theme
 │   ├── Search (keyword, full-text)
-│   ├── Verse Detail
-│   │   ├── Farsi, English, Modern Retelling
-│   │   ├── Context (surrounding verses, book/chapter info)
-│   │   ├── Bookmark
-│   │   └── Add Note (premium feature?)
-│   └── My Collections (saved verses)
+│   └── Verse Detail with context
 │
-├── Profile/Settings
-│   ├── Account (email, password, delete account)
-│   ├── Subscription (manage, cancel, restore purchases)
-│   ├── Notifications (daily verse time, preferences)
-│   ├── Language (English/Farsi toggle for UI)
-│   ├── Accessibility (font size, dark mode, reduced motion)
-│   ├── About (Rumi's story, Sufi tradition, credits)
-│   ├── Support/FAQ
-│   └── Privacy Policy / Terms
-│
-└── Paywall Modal (triggered contextually)
-    ├── Feature Comparison (Free vs. Premium)
-    ├── Pricing Plans (Monthly $9.99, Annual $69.99)
-    ├── Free Trial (7 or 14 days)
-    └── Purchase/Subscribe
+├── Save to Collections - PHASE 2
+├── Chapter of Poetry (extended passages) - PHASE 2
+└── Audio narration - PHASE 2
 ```
 
 **Navigation Structure Decision:**
 
-**Option A: Bottom Tab Navigation (Recommended for Maya, Aisha, Sarah)**
+**Option A: Bottom Tab Navigation (Recommended for MVP 1)**
 ```
 ┌─────────────────────────────────┐
 │                                 │
 │         SCREEN CONTENT          │
 │                                 │
 ├─────────────────────────────────┤
-│ [Home] [Journeys] [Library] [Me]│
+│   [Home] [Journeys] [Profile]   │
 └─────────────────────────────────┘
 ```
-- **Pros**: iOS/Android standard, familiar, easy thumb access
-- **Cons**: 4 tabs may feel busy (could reduce to 3: Home, Explore, Me, with Journeys inside Explore)
+- **Pros**: iOS/Android standard, familiar, easy thumb access, clean 3-tab structure
+- **Cons**: None significant for MVP 1 scope
 
 **Option B: Gesture-Based Navigation (Recommended for Robert, David)**
 ```

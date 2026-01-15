@@ -43,11 +43,10 @@ Comprehensive UX Plan → Design & Launch MVP → User Testing Logic
 
 ### What You're Building
 A **minimal but beautiful** spiritual companion app that:
-1. Delivers one Rumi verse per day
-2. Offers 3-5 guided journeys (not 15+)
-3. Provides searchable Masnavi library
-4. Has a clear paywall (free vs. premium)
-5. Works reliably on iOS (Android can wait)
+1. Delivers one Rumi verse per day (in 3 formats: Farsi, English, Modern Retelling/Reimagining)
+2. Offers 5-6 guided journeys
+3. Has a clear paywall (free vs. premium)
+4. Works reliably on iOS (Android can wait)
 
 ### What You're Proving
 - **User value**: Do people actually use it daily?
@@ -57,11 +56,12 @@ A **minimal but beautiful** spiritual companion app that:
 
 ### What You're NOT Building (Yet)
 - ❌ Android app (iOS first)
-- ❌ 15+ guided journeys (start with 3-5 best)
-- ❌ Social features (sharing can wait)
-- ❌ Advanced personalization (AI features are Phase 2)
-- ❌ Multiple translations side-by-side (one good translation)
-- ❌ Audio narration (text-first MVP)
+- ❌ Searchable Masnavi Library (Phase 2)
+- ❌ Chapter of Poetry / Extended passages (Phase 2)
+- ❌ Save to Collections (Phase 2)
+- ❌ Social features / Sharing (Phase 2)
+- ❌ Advanced personalization / AI (Phase 2)
+- ❌ Audio narration (Phase 2)
 
 ---
 
@@ -142,12 +142,13 @@ SEARCH TAGS: Theme (love, loss, teacher, journey), Emotion (joy, grief, longing)
 
 3. Create feature matrix:
 
-| Feature | Priority | Why | MVP? |
-|---------|----------|-----|------|
-| Daily verse (Farsi, English, modern) | P0 | Core value prop, all personas | ✅ YES |
+| Feature | Priority | Why | MVP 1? |
+|---------|----------|-----|--------|
+| Daily verse (Farsi, English, Modern Retelling/Reimagining) | P0 | Core value prop, all personas | ✅ YES |
 | Contemplation mode (fullscreen, minimal) | P0 | Maya's top need, differentiator | ✅ YES |
-| 3-5 Guided Journeys | P1 | Conversion driver, Aisha/Sarah need | ✅ YES (5 only) |
-| Searchable Masnavi (keyword, theme) | P1 | Robert/David need, unique feature | ✅ YES (basic) |
+| 5-6 Guided Journeys | P0 | Conversion driver, Aisha/Sarah need | ✅ YES |
+| Searchable Masnavi Library | P2 | Robert/David need, unique feature | ❌ NO (Phase 2) |
+| Chapter of Poetry (extended passages) | P2 | Deeper content | ❌ NO (Phase 2) |
 | Save to collection | P2 | Nice-to-have, can add post-launch | ❌ NO (Phase 2) |
 | Social sharing | P3 | Not essential, adds complexity | ❌ NO (Phase 2) |
 | Audio narration | P3 | Expensive, can validate text-first | ❌ NO (Phase 2) |
@@ -203,26 +204,35 @@ Goal: Minimal friction, contemplative experience
 ### Task 2.1: Sitemap (Half day)
 
 **Do:**
-Create dead-simple 4-tab navigation:
+Create dead-simple 3-tab navigation:
 
 ```
 ROOT (Bottom Nav)
 ├── Home
-│   └── Today's Verse (Farsi, English, Modern Retelling)
+│   └── Today's Verse
+│       ├── Farsi (original text)
+│       ├── English Translation (scholarly)
+│       └── Modern Retelling / Reimagining (first-person, accessible)
 │
 ├── Journeys
-│   ├── Journey Library (5 journeys)
+│   ├── Journey Library (5-6 journeys)
 │   └── Active Journey (5 steps)
-│
-├── Library
-│   ├── Search
-│   ├── Browse by Book (1-6)
-│   └── Verse Detail
 │
 └── Profile
     ├── Subscription
     ├── Settings (notifications, dark mode)
     └── About
+```
+
+**Phase 2 (Post-MVP 1):**
+```
+├── Library - PHASE 2
+│   ├── Search
+│   ├── Browse by Book (1-6)
+│   └── Verse Detail
+│
+├── Save to Collections - PHASE 2
+└── Chapter of Poetry - PHASE 2
 ```
 
 **Output:**
@@ -236,21 +246,20 @@ ROOT (Bottom Nav)
 ### Task 2.2: Low-Fi Wireframes (3 days)
 
 **Do:**
-Create grayscale, low-fidelity wireframes for 10-12 key screens:
+Create grayscale, low-fidelity wireframes for 8-10 key screens:
 
-**Must-Have Screens:**
+**Must-Have Screens (MVP 1):**
 1. Onboarding 1: Welcome + Value Prop
 2. Onboarding 2: How It Works
 3. Home: Today's Verse
-4. Verse Detail (3 tabs: Farsi, English, Modern)
+4. Verse Detail (3 tabs: Farsi, English, Modern Retelling/Reimagining)
 5. Contemplation Mode (fullscreen)
-6. Journeys: Library Grid
-7. Journey Active (Step 1 of 5)
-8. Library: Search
-9. Library: Verse Detail
-10. Paywall Modal
-11. Profile/Settings
-12. Subscription Management
+6. Journeys: Library Grid (5-6 journeys)
+7. Journey Detail/Preview
+8. Journey Active (Step 1 of 5 example)
+9. Paywall Modal
+10. Profile/Settings
+11. Subscription Management (optional for MVP)
 
 **Wireframe Rules:**
 - Grayscale boxes and placeholders (no colors, no fonts)
@@ -261,10 +270,10 @@ Create grayscale, low-fidelity wireframes for 10-12 key screens:
 **Tool:** Figma (use rectangles and text layers)
 
 **Output:**
-- 12 wireframe screens in Figma
+- 8-10 wireframe screens in Figma
 - Annotations for interactive elements
 
-**Time:** 12 hours (Suede, can work solo)
+**Time:** 10 hours (Suede, can work solo)
 
 ---
 
