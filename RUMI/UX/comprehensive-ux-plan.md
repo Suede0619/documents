@@ -247,12 +247,18 @@ Define the entire app's information architecture.
 
 ```
 ROOT (3 Bottom Tabs)
-├── Home (Today's Verse)
-│   ├── Daily Verse Detail
-│   │   ├── Farsi (original text)
-│   │   ├── English Translation (scholarly)
-│   │   ├── Modern Retelling / Reimagining (first-person, accessible)
+├── Home
+│   ├── Today's Verse (Daily Quote Engine)
+│   │   ├── Farsi (original)
+│   │   ├── English translation
+│   │   ├── Modern retelling
 │   │   └── Contemplation Mode (fullscreen, distraction-free)
+│   │
+│   ├── Reimaginings (Separate Content Section)
+│   │   ├── First-person Rumi storytelling
+│   │   └── Modern retellings of classical verses
+│   │   └── Makes ancient wisdom accessible
+│   │
 │   └── [Upsell card: Try a Guided Journey]
 │
 ├── Journeys

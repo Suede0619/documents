@@ -169,11 +169,12 @@ Post-Launch: Use User Testing Logic (Document #2)
 ```
 
 #### What you get:
-- 8-10 core screens (iOS only)
+- 10-12 core screens (iOS only)
 - Essential features only (MVP 1):
-  - Daily verse (Farsi, English, Modern Retelling/Reimagining)
-  - 5-6 guided journeys
-  - Clear paywall
+  - Daily Quote Engine (Farsi, English, Modern retelling - 3 formats per verse)
+  - Guided Journeys (5-6 progressive sequences)
+  - Reimaginings (first-person Rumi storytelling, separate content section)
+  - Clear paywall (free vs. premium)
 - Simplified design system (colors, fonts, spacing)
 - Clickable prototype for demos
 - Complete developer handoff for Todd
@@ -205,7 +206,7 @@ $0 - Uses founder time only, free tools (Figma free tier, Firebase Analytics)
 │ Goal: Launch minimal but beautiful app to validate concept  │
 │                                                              │
 │ Deliverables:                                               │
-│ ✓ 8-10 core screens designed                               │
+│ ✓ 10-12 core screens designed                              │
 │ ✓ iOS app built and launched                               │
 │ ✓ Basic analytics tracking set up                          │
 │ ✓ 100-1,000 early users acquired                           │
@@ -304,7 +305,7 @@ You don't need to read User Testing Logic document separately. Just follow the L
 
 #### Why this plan:
 - ✅ Gets you to MVP in **4-6 weeks** (not 12-16 weeks)
-- ✅ Focuses on **essential features only** (daily verse, 5 journeys, searchable library)
+- ✅ Focuses on **essential features only** (Daily Quote Engine, Guided Journeys, Reimaginings, Paywall)
 - ✅ Uses **founder time only** (no $20K-50K budget needed)
 - ✅ Delivers **"good enough to validate"** quality
 - ✅ Includes **post-launch testing roadmap** from your consultant
@@ -324,7 +325,7 @@ You don't need to read User Testing Logic document separately. Just follow the L
 - **Week 3: Visual Design**
   - Design principles (half day) - Suede
   - Design system basics: colors, fonts, spacing (2 days) - Suede
-  - High-fi mockups of 8-10 screens (2.5 days) - Suede
+  - High-fi mockups of 10-12 screens (2.5 days) - Suede
   - Team review (half day) - Team meeting
 
 - **Week 4: Prototype & Developer Handoff**
@@ -342,8 +343,8 @@ You don't need to read User Testing Logic document separately. Just follow the L
 | **Timeline** | 4-6 weeks | Ongoing (2-week sprints) | 12-16 weeks |
 | **Stage** | Pre-seed | Post-launch | Post-seed funding |
 | **Budget** | $0 (founder time) | $0-200/month (analytics) | $20K-50K (if hiring) |
-| **Screens** | 8-10 core screens | N/A (testing existing) | 30-40 screens |
-| **Features** | Daily verse (3 formats), 5-6 journeys | Optimize existing features | Full feature set + Library + Android + audio |
+| **Screens** | 10-12 core screens | N/A (testing existing) | 30-40 screens |
+| **Features** | Daily Quote Engine (3 formats), Guided Journeys (5-6), Reimaginings (first-person), Paywall | Optimize existing features | Full feature set + Library + Android + audio |
 | **Research** | Light competitive audit | A/B testing with real users | Full user interviews (10-15 people) |
 | **Design System** | Basics only (colors, fonts, spacing) | N/A | Complete (motion, accessibility, tokens) |
 | **Platform** | iOS only | iOS (Android later) | iOS + Android |
@@ -387,11 +388,11 @@ You don't need to read User Testing Logic document separately. Just follow the L
 
 ### Week 2: Information Architecture
 - [ ] Follow Week 2 tasks in Lean MVP Plan
-- [ ] Deliverable: 8-10 wireframes + team sign-off
+- [ ] Deliverable: 10-12 wireframes + team sign-off
 
 ### Week 3: Visual Design
 - [ ] Follow Week 3 tasks in Lean MVP Plan
-- [ ] Deliverable: 8-10 high-fidelity mockups + design system basics
+- [ ] Deliverable: 10-12 high-fidelity mockups + design system basics
 
 ### Week 4: Handoff
 - [ ] Follow Week 4 tasks in Lean MVP Plan
@@ -486,7 +487,7 @@ Think of them as a three-stage roadmap for your UX journey.
 
 ### Q: What if our timeline slips?
 **A:** The Lean MVP Plan has contingencies:
-- **If Week 1-2 takes longer:** Reduce screens (6-7 core screens instead of 8-10)
+- **If Week 1-2 takes longer:** Reduce screens (8 core screens instead of 10-12)
 - **If Week 3 takes longer:** Use iOS design templates instead of designing from scratch
 - **If Week 4 takes longer:** Skip guerrilla testing, go straight to handoff
 

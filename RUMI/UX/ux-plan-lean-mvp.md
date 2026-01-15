@@ -43,10 +43,11 @@ Comprehensive UX Plan → Design & Launch MVP → User Testing Logic
 
 ### What You're Building
 A **minimal but beautiful** spiritual companion app that:
-1. Delivers one Rumi verse per day (in 3 formats: Farsi, English, Modern Retelling/Reimagining)
-2. Offers 5-6 guided journeys
-3. Has a clear paywall (free vs. premium)
-4. Works reliably on iOS (Android can wait)
+1. **Daily Quote Engine** - One Rumi verse per day (3 formats: Farsi, English translation, Modern retelling)
+2. **Guided Journeys** - 5-6 initial journeys with progressive quote sequences
+3. **Reimaginings** - First-person Rumi storytelling (separate content type)
+4. **Paywall** - Clear free vs. premium distinction
+5. Works reliably on iOS (Android can wait)
 
 ### What You're Proving
 - **User value**: Do people actually use it daily?
@@ -144,9 +145,11 @@ SEARCH TAGS: Theme (love, loss, teacher, journey), Emotion (joy, grief, longing)
 
 | Feature | Priority | Why | MVP 1? |
 |---------|----------|-----|--------|
-| Daily verse (Farsi, English, Modern Retelling/Reimagining) | P0 | Core value prop, all personas | ✅ YES |
+| Daily Quote Engine (Farsi, English, Modern retelling) | P0 | Core value prop, all personas | ✅ YES |
+| Guided Journeys (5-6 journeys) | P0 | Conversion driver, progressive sequences | ✅ YES |
+| Reimaginings (first-person storytelling) | P0 | Accessibility, contemporary connection | ✅ YES |
 | Contemplation mode (fullscreen, minimal) | P0 | Maya's top need, differentiator | ✅ YES |
-| 5-6 Guided Journeys | P0 | Conversion driver, Aisha/Sarah need | ✅ YES |
+| Paywall (free vs. premium) | P0 | Monetization path | ✅ YES |
 | Searchable Masnavi Library | P2 | Robert/David need, unique feature | ❌ NO (Phase 2) |
 | Chapter of Poetry (extended passages) | P2 | Deeper content | ❌ NO (Phase 2) |
 | Save to collection | P2 | Nice-to-have, can add post-launch | ❌ NO (Phase 2) |
@@ -209,10 +212,13 @@ Create dead-simple 3-tab navigation:
 ```
 ROOT (Bottom Nav)
 ├── Home
-│   └── Today's Verse
-│       ├── Farsi (original text)
-│       ├── English Translation (scholarly)
-│       └── Modern Retelling / Reimagining (first-person, accessible)
+│   ├── Today's Verse (Daily Quote Engine)
+│   │   ├── Farsi (original)
+│   │   ├── English translation
+│   │   └── Modern retelling
+│   │
+│   └── Reimaginings (Separate Content Section)
+│       └── First-person Rumi storytelling
 │
 ├── Journeys
 │   ├── Journey Library (5-6 journeys)
@@ -246,20 +252,21 @@ ROOT (Bottom Nav)
 ### Task 2.2: Low-Fi Wireframes (3 days)
 
 **Do:**
-Create grayscale, low-fidelity wireframes for 8-10 key screens:
+Create grayscale, low-fidelity wireframes for 10-12 key screens:
 
 **Must-Have Screens (MVP 1):**
 1. Onboarding 1: Welcome + Value Prop
 2. Onboarding 2: How It Works
-3. Home: Today's Verse
-4. Verse Detail (3 tabs: Farsi, English, Modern Retelling/Reimagining)
-5. Contemplation Mode (fullscreen)
-6. Journeys: Library Grid (5-6 journeys)
-7. Journey Detail/Preview
-8. Journey Active (Step 1 of 5 example)
-9. Paywall Modal
-10. Profile/Settings
-11. Subscription Management (optional for MVP)
+3. Home: Today's Verse (Daily Quote Engine)
+4. Verse Detail (3 tabs: Farsi, English, Modern retelling)
+5. Reimaginings: Story View (first-person Rumi storytelling)
+6. Contemplation Mode (fullscreen)
+7. Journeys: Library Grid (5-6 journeys)
+8. Journey Detail/Preview
+9. Journey Active (Step 1 of 5 example)
+10. Paywall Modal
+11. Profile/Settings
+12. Subscription Management (optional for MVP)
 
 **Wireframe Rules:**
 - Grayscale boxes and placeholders (no colors, no fonts)
@@ -270,10 +277,10 @@ Create grayscale, low-fidelity wireframes for 8-10 key screens:
 **Tool:** Figma (use rectangles and text layers)
 
 **Output:**
-- 8-10 wireframe screens in Figma
+- 10-12 wireframe screens in Figma
 - Annotations for interactive elements
 
-**Time:** 10 hours (Suede, can work solo)
+**Time:** 12 hours (Suede, can work solo)
 
 ---
 
