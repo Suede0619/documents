@@ -10,3 +10,6 @@
 # Don't track files in subdirectories by default
 # To include .md files in subdirectories, use:
 !*/
+
+# Private folder - ignore completely
+RUMI/private/

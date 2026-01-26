@@ -16,7 +16,7 @@ Defines the Product Owner role, authority, and decision-making scope. Critical f
 **Title:** Product Owner (CPO Function)  
 **Current Assignment:** Yalor Mewn (COO serving as interim Product Owner)  
 **Reports To:** John Wyrick (CEO)  
-**Collaborates With:** Todd Bowden (CTO), Stuart Paul (CDO)  
+**Collaborates With:** Todd Bowden (CTO), Stuart Paul (Co-Founder & CDO / Marketing Lead)  
 
 **Status:** Yalor serves as interim Product Owner alongside COO duties. This dual-hat is appropriate at pre-seed (4-person team). Revisit when team exceeds 8 people or when operational duties consistently conflict with product decisions. A dedicated PO hire is a post-Series A consideration.
 
@@ -144,11 +144,12 @@ This role prevents design-by-committee and ensures rapid, focused iteration.
 - CTO advises on technical feasibility before PO commits to scope
 - PO respects technical debt needs (allocate ~20% of sprint capacity to tech debt)
 
-### With CDO (Stuart Paul)
+### With CDO / Marketing Lead (Stuart Paul)
 - Collaborative on UX decisions — design proposes, PO evaluates against priorities
 - PO has final call on UX trade-offs when time is limited
 - Design reviews happen before sprint commitment, not after development
 - Joint ownership of user experience quality
+- Marketing alignment: PO aligns product launches with marketing cadence
 
 ### With Advisor (Ben Rewis)
 - PO presents product progress at monthly sessions
@@ -219,7 +220,7 @@ This charter is effective upon team agreement and signature.
 | John Wyrick | CEO — Grants PO authority as defined | **[DATE]** |
 | Yalor Mewn | Product Owner — Accepts responsibilities | **[DATE]** |
 | Todd Bowden | CTO — Agrees to PO/CTO collaboration model | **[DATE]** |
-| Stuart Paul | CDO — Agrees to PO/CDO collaboration model | **[DATE]** |
+| Stuart Paul | Co-Founder & CDO / Marketing Lead — Agrees to PO/CDO collaboration model | **[DATE]** |
 
 ### Review Schedule
 - **Quarterly:** Review charter effectiveness at Founder Sync

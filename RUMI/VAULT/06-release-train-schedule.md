@@ -180,7 +180,7 @@ A predictable weekly rhythm for product development, testing, and release. Creat
 |-------------|---------------|
 | **Todd (CTO)** | Technical: crashes, performance, API calls, data integrity, offline mode |
 | **Yalor (PO)** | Flows: onboarding, daily verse, guided journeys, subscription, navigation |
-| **Stuart (CDO)** | Design: fonts, colors, spacing, animations, transitions, visual consistency |
+| **Stuart (CDO)** | Design QA: fonts, colors, spacing, animations, transitions, visual consistency, brand adherence |
 | **John (CEO)** | Content: verse accuracy, tone, spiritual integrity, Farsi rendering |
 
 ### QA Checklist

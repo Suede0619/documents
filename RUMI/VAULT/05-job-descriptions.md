@@ -13,7 +13,7 @@ Detailed descriptions of each role — current team and planned hires. Derived f
 
 ## Current Team Roles
 
-### Founder & Spiritual Director / CEO
+### Co-Founder & Spiritual Director / CEO
 
 **Name:** John Wyrick (Sheikh Firdousi)  
 **Type:** Founder (equity-compensated, stipend post-funding)  
@@ -108,29 +108,28 @@ Detailed descriptions of each role — current team and planned hires. Derived f
 
 ---
 
-### Founding Team & CDO (Chief Design Officer)
+### Co-Founder & CDO / Marketing Lead
 
-**Name:** Stuart Paul (Suede)  
-**Type:** Founding team member (equity-compensated, stipend post-funding)  
+**Name:** Stuart Paul  
+**Type:** Co-Founder (equity-compensated, stipend post-funding)  
 **Reports To:** CEO  
 
 #### Key Responsibilities
 - Brand identity and design system ownership
 - UI/UX design for app (all screens, flows, interactions)
 - Pitch deck and investor materials design
+- Marketing lead: strategy, community building, launch campaigns
 - Marketing asset creation (social media, App Store, landing page)
 - Design QA and visual consistency
-- Design team leadership (post-funding, overseeing UI/UX designer hire)
+- Design team leadership (post-funding)
 - App Store visual presence (screenshots, preview video)
 
 #### Required Background
-- 25+ years contemplative practice across multiple traditions
-- UX/UI design for mobile applications
-- Brand system development and design system creation
-- Figma expertise (wireframing, prototyping, design systems)
-- Adobe Creative Suite proficiency
-- Startup product design experience (Web3, capital campaigns)
-- WordPress development (30+ sites)
+- Years of professional experience spanning design, art direction, creative direction, and frontend development
+- Contemplative practice across multiple traditions
+- UX/UI design for mobile and web applications (Figma)
+- Brand system development and visual identity
+- Marketing, event production, and community building experience
 
 #### Success Metrics
 - Design system: complete and adopted by development

@@ -11,7 +11,7 @@ Last Updated: January 26, 2026
                     ┌─────────────────────┐
                     │    John Wyrick      │
                     │   (Sheikh Firdousi) │
-                    │   Founder & CEO     │
+                    │ Co-Founder & CEO   │
                     │  Spiritual Director │
                     └──────────┬──────────┘
                                │
@@ -20,9 +20,9 @@ Last Updated: January 26, 2026
            ▼                   ▼                   ▼
 ┌──────────────────┐ ┌──────────────────┐ ┌──────────────────┐
 │  Todd Bowden PhD │ │    Yalor Mewn    │ │  Stuart Paul     │
-│  Co-Founder &    │ │  Co-Founder &    │ │    (Suede)       │
-│  CTO             │ │  COO / Interim   │ │  CDO / Brand &   │
-│                  │ │  Product Owner   │ │  Experience      │
+│  Co-Founder &    │ │  Co-Founder &    │ │  Co-Founder &    │
+│  CTO             │ │  COO / Interim   │ │  CDO / Mktg Lead │
+│                  │ │  Product Owner   │ │                  │
 └──────────────────┘ └──────────────────┘ └──────────────────┘
 ```
 
@@ -43,7 +43,7 @@ Last Updated: January 26, 2026
 ## Current Team Details
 
 ### John Wyrick (Sheikh Firdousi)
-**Founder & Spiritual Director / CEO**
+**Co-Founder & Spiritual Director / CEO**
 
 - Reports to: Board of Directors
 - Direct Reports: TB, YM, SP
@@ -85,19 +85,20 @@ Last Updated: January 26, 2026
   - Legal and compliance coordination
   - Product ownership (feature prioritization, sprint scope, beta feedback)
 
-### Stuart Paul (Suede)
-**Founding Team & CDO (Chief Design Officer)**
+### Stuart Paul
+**Co-Founder & CDO / Marketing Lead**
 
 - Reports to: JW (CEO)
-- Direct Reports: Future design hires (UI/UX designer Q3 2026)
-- Domain Authority: Brand, design system, UX/UI, visual identity
+- Direct Reports: Future design hires (UI/UX designer Q3 2026), future marketing hires (Marketing Specialist Q3 2026)
+- Domain Authority: Brand, design system, UX/UI, visual identity, marketing execution
 - Key Responsibilities:
-  - Brand identity and design system
-  - UI/UX design for app
+  - Brand identity and design system ownership
+  - UI/UX design for app (all screens, flows, interactions)
   - Pitch deck and investor materials design
-  - Marketing asset creation
-  - App Store visual presence
-  - Design QA and consistency
+  - Marketing lead: strategy, community building, launch campaigns
+  - Marketing asset creation (social media, App Store, landing page)
+  - Design QA and visual consistency
+  - App Store visual presence (screenshots, preview video, icon)
 
 ### Ben Rewis
 **Advisor**
@@ -119,7 +120,7 @@ Last Updated: January 26, 2026
 ```
                     ┌─────────────────────┐
                     │    John Wyrick      │
-                    │   Founder & CEO     │
+                    │ Co-Founder & CEO   │
                     │  Spiritual Director │
                     └──────────┬──────────┘
                                │
@@ -150,7 +151,7 @@ Budget source: $50,000 Team allocation from Use of Funds.
 
 | Role | Reports To | Dotted Line | Annual Salary Range | Equity Range | Timeline |
 |------|------------|-------------|--------------------| -------------|----------|
-| UI/UX Designer | Stuart Paul (CDO) | Yalor (product priorities) | $55,000 - $75,000 | 0.50% - 1.00% from pool | Q3 2026 |
+| UI/UX Designer | Stuart Paul (Co-Founder & CDO / Marketing Lead) | Yalor (product priorities) | $55,000 - $75,000 | 0.50% - 1.00% from pool | Q3 2026 |
 | Marketing Specialist | Yalor Mewn (COO) | Stuart (brand consistency) | $50,000 - $70,000 | 0.50% - 1.00% from pool | Q3 2026 |
 
 **Budget note:** At $50K total team budget, hiring both roles full-time at market rate is not feasible for 12 months. Options:
@@ -208,10 +209,10 @@ Budget source: $50,000 Team allocation from Use of Funds.
 
 | Name | Role | Equity % | Vesting | Status |
 |------|------|----------|---------|--------|
-| John Wyrick | Founder/CEO | **[JW %]** | 4yr / 1yr cliff | Active founder |
+| John Wyrick | Co-Founder/CEO | **[JW %]** | 4yr / 1yr cliff | Active founder |
 | Todd Bowden | Co-Founder/CTO | **[TB %]** | 4yr / 1yr cliff | Active founder |
 | Yalor Mewn | Co-Founder/COO | **[YM %]** | 4yr / 1yr cliff | Active founder |
-| Stuart Paul | Founding Team/CDO | **[SP %]** | 4yr / 1yr cliff | Active founder |
+| Stuart Paul | Co-Founder & CDO / Marketing Lead | **[SP %]** | 4yr / 1yr cliff | Active founder |
 | Ben Rewis | Advisor | **[BR %]** (rec: 0.5-1.0%) | 2yr / no cliff | Active advisor |
 | Employee Pool | Future hires | **15%** (recommended) | Per grant terms | Reserved |
 

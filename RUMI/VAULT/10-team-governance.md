@@ -15,10 +15,10 @@ Defines how the founding team makes decisions, resolves conflicts, and handles e
 
 | Name | Role | Join Date | Initial Contribution |
 |------|------|-----------|---------------------|
-| John Wyrick (Sheikh Firdousi) | Founder & CEO / Spiritual Director | **[DATE NEEDED]** | Vision, spiritual IP, 40yr teaching lineage, Masnavi translations, guided journey content |
+| John Wyrick (Sheikh Firdousi) | Co-Founder & CEO / Spiritual Director | **[DATE NEEDED]** | Vision, spiritual IP, 40yr teaching lineage, Masnavi translations, guided journey content |
 | Todd Bowden, PhD | Co-Founder & CTO | **[DATE NEEDED]** | App architecture, iOS/Android development, AI integration, technical infrastructure |
 | Yalor Mewn | Co-Founder & COO | **[DATE NEEDED]** | Business operations, fundraising, financial management, partnerships |
-| Stuart Paul (Suede) | Founding Team & CDO | **[DATE NEEDED]** | Brand identity, UI/UX design, pitch deck, marketing assets, design system |
+| Stuart Paul | Co-Founder & CDO / Marketing Lead | **[DATE NEEDED]** | Brand, UI/UX design, pitch deck, investor materials, landing page, marketing strategy & execution |
 
 ---
 
@@ -50,7 +50,7 @@ To bring Rumi's wisdom into the hands of millions — daily, authentically, beau
 | Spiritual/Content Integrity | John (CEO) | Veto power on authenticity |
 | Technical Architecture | Todd (CTO) | Consult team, final authority |
 | Business Operations | Yalor (COO) | Consult team, final authority |
-| Brand & Design | Stuart (CDO) | Consult team, final authority |
+| Brand, Design & Marketing | Stuart (CDO / Marketing Lead) | Consult team, final authority |
 | Equity & Ownership | Full Team | Unanimous consent required |
 | Major Pivots | Full Team | Unanimous consent required |
 | Hiring/Firing | Relevant Lead + CEO | Consultation with team |
@@ -321,13 +321,16 @@ All founders agree to:
 
 **DECISION NEEDED:** Define initial board.
 
-**Recommendation for pre-seed:**
+**Recommendation for pre-seed (4 founder seats):**
+
+A 4-founder company should have 4 board seats at pre-seed. Excluding any co-founder from the board creates a structural power imbalance that investors will flag.
 
 | Seat | Holder | Type |
 |------|--------|------|
 | Seat 1 | John Wyrick (CEO) | Founder seat |
 | Seat 2 | Todd Bowden (CTO) | Founder seat |
 | Seat 3 | Yalor Mewn (COO) | Founder seat |
+| Seat 4 | Stuart Paul (CDO / Marketing Lead) | Founder seat |
 
 **At Series A (projected):** Expand to 5 seats:
 
@@ -335,11 +338,13 @@ All founders agree to:
 |------|--------|------|
 | Seat 1 | John Wyrick | Founder seat |
 | Seat 2 | Yalor Mewn | Founder seat |
-| Seat 3 | Lead investor representative | Investor seat |
-| Seat 4 | Independent director (mutually agreed) | Independent |
-| Seat 5 | Todd Bowden or Stuart Paul | Founder/team seat |
+| Seat 3 | Stuart Paul | Founder seat |
+| Seat 4 | Lead investor representative | Investor seat |
+| Seat 5 | Todd Bowden or independent director (mutually agreed) | Founder/Independent seat |
 
 **Board observer:** Ben Rewis may attend board meetings as a non-voting observer (standard for advisors).
+
+**Note:** A 4-seat board can deadlock 2-2. Deadlock resolution: table for 48 hours, written cases, then CEO breaks the tie (per Decision-Making Framework above). At Series A, the 5th seat resolves the even-number issue.
 
 ---
 
@@ -366,10 +371,10 @@ By signing, all founders agree to this governance framework:
 
 | Name | Role | Signature | Date |
 |------|------|-----------|------|
-| John Wyrick | Founder & CEO | _____________ | _____ |
+| John Wyrick | Co-Founder & CEO | _____________ | _____ |
 | Todd Bowden | Co-Founder & CTO | _____________ | _____ |
 | Yalor Mewn | Co-Founder & COO | _____________ | _____ |
-| Stuart Paul | Founding Team & CDO | _____________ | _____ |
+| Stuart Paul | Co-Founder & CDO / Marketing Lead | _____________ | _____ |
 
 ---
 
@@ -383,7 +388,7 @@ By signing, all founders agree to this governance framework:
 6. **Buyout price formula** — FMV via 409A recommended. Alternatives?
 7. **Non-compete terms** — 12 months, narrow scope recommended. Adjust? Note CA enforceability issue.
 8. **Non-solicit terms** — 18 months employees, 12 months customers recommended. Adjust?
-9. **Board composition** — 3-person founder board recommended for pre-seed. Confirm?
+9. **Board composition** — 4-person founder board recommended for pre-seed (one seat per co-founder). Confirm?
 10. **Key person insurance** — $500K-$1M on CEO and CTO recommended. Confirm?
 11. **John's content IP** — Assignment (recommended) or license? This is critical for investor confidence.
 12. **Outside activities** — Each founder must disclose current commitments.
