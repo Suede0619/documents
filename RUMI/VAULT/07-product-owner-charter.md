@@ -14,7 +14,7 @@ Defines the Product Owner role, authority, and decision-making scope. Critical f
 ## Role Definition
 
 **Title:** Product Owner (CPO Function)  
-**Current Assignment:** Yalor Mewn (COO serving as interim Product Owner)  
+**Current Assignment:** Yalor Mewn (COO serving as IPO)  
 **Reports To:** John Wyrick (CEO)  
 **Collaborates With:** Todd Bowden (CTO), Stuart Paul (CDO)  
 

@@ -12,7 +12,7 @@ Status: Internal Working Document — Not for External Distribution
 |---------|-----------|------|----------------|---------------|
 | John Wyrick | 30% | CEO / Spiritual Director | ~2 years | ~1,000 |
 | Todd Bowden, PhD | 30% | CTO | ~2 years | ~1,000 |
-| Yalor Mewn | 17% | COO / Interim Product Owner | ~1 month | ~60 (est.) |
+| Yalor Mewn | 17% | COO / IPO | ~1 month | ~60 (est.) |
 | Stuart Paul | 9% | CDO | ~1 month | 58.5 |
 | Employee Option Pool | 14% | — | — | — |
 | **Total** | **100%** | | | |
@@ -70,7 +70,7 @@ Status: Internal Working Document — Not for External Distribution
 
 ---
 
-### Yalor Mewn — COO / Interim Product Owner (17% proposed)
+### Yalor Mewn — COO / IPO (17% proposed)
 
 **Contributions:**
 - 10+ years startup experience

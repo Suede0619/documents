@@ -13,7 +13,7 @@ Detailed descriptions of each role — current team and planned hires. Derived f
 
 ## Current Team Roles
 
-### Co-Founder & Spiritual Director / CEO
+### Co-Founder & CEO / Spiritual Director
 
 **Name:** John Wyrick (Sheikh Firdousi)  
 **Type:** Founder (equity-compensated, stipend post-funding)  
@@ -108,7 +108,7 @@ Detailed descriptions of each role — current team and planned hires. Derived f
 
 ---
 
-### Co-Founder & CDO / Marketing Lead
+### Co-Founder & CDO / Interim Marketing Lead
 
 **Name:** Stuart Paul  
 **Type:** Co-Founder (equity-compensated, stipend post-funding)  

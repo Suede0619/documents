@@ -3,7 +3,7 @@
 
 **Version:** 2.0
 **Date:** January 26, 2026
-**Stakeholders:** John Wyrick (Co-Founder & CEO / Spiritual Director), Todd Bowden PhD (Co-Founder & CTO), Yalor Mewn (Co-Founder & COO / Interim Product Owner), Stuart Paul (Co-Founder & CDO)
+**Stakeholders:** John Wyrick (Co-Founder & CEO / Spiritual Director), Todd Bowden PhD (Co-Founder & CTO), Yalor Mewn (Co-Founder & COO / IPO), Stuart Paul (Co-Founder & CDO / IML)
 
 ---
 
@@ -38,8 +38,8 @@ A sanctuary, not a feed. A digital platform where ancient mystical poetry become
 |------|------|--------|
 | John Wyrick (Sheikh Firdousi) | Co-Founder & CEO / Spiritual Director | Vision, content, spiritual integrity |
 | Todd Bowden, PhD | Co-Founder & CTO | App architecture, development, infrastructure |
-| Yalor Mewn | Co-Founder & COO / Interim Product Owner | Operations, fundraising, product priorities |
-| Stuart Paul | Co-Founder & CDO | Brand, UI/UX design, marketing, investor materials |
+| Yalor Mewn | Co-Founder & COO / IPO | Operations, fundraising, product priorities |
+| Stuart Paul | Co-Founder & CDO / IML | Brand, UI/UX design, marketing, investor materials |
 | Ben Rewis | Advisor | Strategic guidance, financial planning (monthly sessions) |
 
 **Detailed role definitions:** See Doc 05 (Job Descriptions)

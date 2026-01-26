@@ -8,22 +8,13 @@ Last Updated: January 26, 2026
 ## Current Team Structure
 
 ```
-                    ┌─────────────────────┐
-                    │    John Wyrick      │
-                    │   (Sheikh Firdousi) │
-                    │ Co-Founder & CEO    │
-                    │  Spiritual Director │
-                    └──────────┬──────────┘
-                               │
-           ┌───────────────────┼───────────────────┐
-           │                   │                   │
-           ▼                   ▼                   ▼
-┌──────────────────┐ ┌──────────────────┐ ┌──────────────────┐
-│  Todd Bowden PhD │ │    Yalor Mewn    │ │  Stuart Paul     │
-│  Co-Founder &    │ │  Co-Founder &    │ │  Co-Founder &    │
-│  CTO             │ │  COO / Interim   │ │  CDO / Mktg Lead │
-│                  │ │  Product Owner   │ │                  │
-└──────────────────┘ └──────────────────┘ └──────────────────┘
+┌──────────────────┐ ┌──────────────────┐ ┌──────────────────┐ ┌──────────────────┐
+│  John Wyrick     │ │  Todd Bowden PhD │ │    Yalor Mewn    │ │  Stuart Paul     │
+│ (Sheikh Firdousi)│ │  Co-Founder &    │ │  Co-Founder &    │ │  Co-Founder &    │
+│  Co-Founder &    │ │  CTO             │ │  COO / Interim   │ │  CDO / Interim   │
+│  CEO / Spiritual │ │                  │ │  Product Owner   │ │  Marketing Lead  │
+│  Director        │ │                  │ │                  │ │                  │
+└──────────────────┘ └──────────────────┘ └──────────────────┘ └──────────────────┘
 ```
 
 ### Advisor
@@ -43,7 +34,7 @@ Last Updated: January 26, 2026
 ## Current Team Details
 
 ### John Wyrick (Sheikh Firdousi)
-**Co-Founder & Spiritual Director / CEO**
+**Co-Founder & CEO / Spiritual Director**
 
 - Reports to: Board of Directors
 - Direct Reports: TB, YM, SP
@@ -86,7 +77,7 @@ Last Updated: January 26, 2026
   - Product ownership (feature prioritization, sprint scope, beta feedback)
 
 ### Stuart Paul
-**Co-Founder & CDO / Marketing Lead**
+**Co-Founder & CDO / Interim Marketing Lead**
 
 - Reports to: JW (CEO)
 - Direct Reports: Future design hires (UI/UX designer Q3 2026), future marketing hires (Marketing Specialist Q3 2026)
@@ -117,27 +108,18 @@ Last Updated: January 26, 2026
 ## Projected Team Structure (Post $250K Funding)
 
 ```
-                    ┌─────────────────────┐
-                    │    John Wyrick      │
-                    │ Co-Founder & CEO   │
-                    │  Spiritual Director │
-                    └──────────┬──────────┘
-                               │
-       ┌───────────────────────┼───────────────────────┐
-       │                       │                       │
-       ▼                       ▼                       ▼
-┌──────────────┐      ┌──────────────┐      ┌──────────────┐
-│ Todd Bowden  │      │  Yalor Mewn  │      │ Stuart Paul  │
-│     CTO      │      │  COO / PO    │      │     CDO      │
-└──────┬───────┘      └──────┬───────┘      └──────┬───────┘
-       │                     │                     │
-       ▼                     ▼                     ▼
-┌──────────────┐      ┌──────────────┐      ┌──────────────┐
-│  [NEW HIRE]  │      │  [NEW HIRE]  │      │  [NEW HIRE]  │
-│  Android Dev │      │  Marketing   │      │   UI/UX      │
-│  Q4 2026     │      │  Specialist  │      │  Designer    │
-│              │      │  Q3 2026     │      │  Q3 2026     │
-└──────────────┘      └──────────────┘      └──────────────┘
+┌──────────────┐ ┌──────────────┐ ┌──────────────┐ ┌──────────────┐
+│ John Wyrick  │ │ Todd Bowden  │ │  Yalor Mewn  │ │ Stuart Paul  │
+│  CEO / SD    │ │     CTO      │ │  COO / IPO   │ │  CDO / IML   │
+└──────────────┘ └──────┬───────┘ └──────┬───────┘ └──────┬───────┘
+                        │                │                │
+                        ▼                ▼                ▼
+                 ┌──────────────┐ ┌──────────────┐ ┌──────────────┐
+                 │  [NEW HIRE]  │ │  [NEW HIRE]  │ │  [NEW HIRE]  │
+                 │  Android Dev │ │  Marketing   │ │   UI/UX      │
+                 │  Q4 2026     │ │  Specialist  │ │  Designer    │
+                 │              │ │  Q3 2026     │ │  Q3 2026     │
+                 └──────────────┘ └──────────────┘ └──────────────┘
 ```
 
 ---

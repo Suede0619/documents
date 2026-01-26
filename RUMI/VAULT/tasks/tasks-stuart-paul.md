@@ -1,4 +1,4 @@
-# Task List: Stuart Paul (Co-Founder & CDO)
+# Task List: Stuart Paul (CDO / IML)
 
 Rumi App — Documents and Deliverables Needed from Stuart  
 Generated: January 26, 2026

@@ -254,7 +254,7 @@ The optimal structure is **Stuart owns marketing, Yalor owns product, and they c
                            |
               ┌────────────┴────────────┐
               |                         |
-        YALOR (PO)                STUART (CDO + Marketing Lead)
+        YALOR (IPO)               STUART (CDO + IML)
      - Sprint scope              - Brand & design system
      - Backlog mgmt              - Investor materials
      - Feature priorities        - Landing page & web

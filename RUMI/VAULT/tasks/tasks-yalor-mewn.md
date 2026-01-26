@@ -1,4 +1,4 @@
-# Task List: Yalor Mewn (COO / Interim Product Owner)
+# Task List: Yalor Mewn (COO / IPO)
 
 Rumi App — Documents and Deliverables Needed from Yalor  
 Generated: January 26, 2026
