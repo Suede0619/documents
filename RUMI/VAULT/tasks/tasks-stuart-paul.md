@@ -1,4 +1,4 @@
-# Task List: Stuart Paul (Co-Founder & CDO / Marketing Lead)
+# Task List: Stuart Paul (Co-Founder & CDO)
 
 Rumi App — Documents and Deliverables Needed from Stuart  
 Generated: January 26, 2026
@@ -93,51 +93,90 @@ Generated: January 26, 2026
 - **Deliverable:** Designed PDF
 - **Reference:** VAULT/08-investor-data-room-checklist.md (Section 9: Market Analysis)
 
+### 16. Company Fact Sheet — Design/Layout
+- **What:** Design 1-page company fact sheet (team, stage, ask, market, traction)
+- **Deliverable:** Designed PDF
+- **Reference:** VAULT/08-investor-data-room-checklist.md (Section 1: Company Fact Sheet)
+
+### 17. Landing Page — Deploy Live
+- **What:** Deploy landing page live with email signup capture. Copy exists at /landing/copy.md.
+- **Deliverable:** Live landing page URL with signup tracking
+- **Reference:** VAULT/08-investor-data-room-checklist.md (Section 1: Landing Page)
+
+### 18. LinkedIn Profile Update
+- **What:** Update LinkedIn profile to reflect Rumi App Co-Founder & CDO role
+- **Deliverable:** Updated LinkedIn profile URL
+- **Reference:** VAULT/08-investor-data-room-checklist.md (Section 5: LinkedIn Profiles)
+
+### 19. NPS/Satisfaction Data — Design
+- **What:** Contribute to NPS survey design for beta users
+- **Deliverable:** Survey design input
+- **Reference:** VAULT/08-investor-data-room-checklist.md (Section 9: NPS/Satisfaction Data)
+
 ---
 
 ## TEAM DECISIONS (Requires All Founders)
 
-### 16. Hours & Commitment Clarification
+### 20. Hours & Commitment Clarification
 Answer the following questions (from VAULT/analysis/hours-commitment-questions.md):
 1. Current hours per week commitment (beyond the tracked 58.5)?
 2. Going-forward commitment through launch and beyond?
 3. Are you willing to take on Marketing Lead + PO/marketing/frontend responsibilities?
 4. How will you balance Rumi vs. Tergar Retreats engagement (~$29K, Jan-Dec 2026)?
 
-### 17. Incorporation Decision
+### 21. Incorporation Decision
 - **What:** Agree on entity type, state, company legal name (with all founders)
 
-### 18. Founder Agreement Review & Sign
+### 22. Founder Agreement Review & Sign
 - **What:** Review and sign founder agreement
 
-### 19. 83(b) Election
+### 23. 83(b) Election
 - **What:** File 83(b) election with IRS within 30 days of stock grant — HARD DEADLINE
+
+### 24. App Name Decision
+- **What:** Participate in finalizing app name ("Rumi Sanctuary" recommended)
+- **Reference:** documents/RUMI/consciousBiz/app-naming-analysis.md
+
+### 25. Outside Activities Disclosure
+- **What:** Disclose all outside activities (e.g., Tergar Retreats engagement) per founder agreement
+- **Deliverable:** Written disclosure
+- **Reference:** VAULT/10-team-governance.md
+
+### 26. Founder Join Date
+- **What:** Provide official join date for documentation
+- **Deliverable:** Date provided
+- **Reference:** VAULT/10-team-governance.md
 
 ---
 
 ## MEDIUM PRIORITY (Before Launch)
 
-### 20. GTM Strategy Document
+### 27. GTM Strategy Document
 - **What:** Write formal go-to-market strategy (you own this as Marketing Lead)
 - **Reference:** VAULT/08-investor-data-room-checklist.md (Section 10: GTM Strategy)
 
-### 21. Marketing Plan
+### 28. Marketing Plan
 - **What:** Write detailed marketing execution plan with budget, channels, KPIs
 - **Reference:** VAULT/08-investor-data-room-checklist.md (Section 10: Marketing Plan)
 
-### 22. App Store Listing — Visual Assets
+### 29. Waitlist Tracking
+- **What:** Track and report landing page email signups. Even 100-200 signups pre-seed is signal.
+- **Deliverable:** Waitlist count and growth metrics
+- **Reference:** VAULT/08-investor-data-room-checklist.md (Section 9: Waitlist Size)
+
+### 30. App Store Listing — Visual Assets
 - **What:** App icon (1024x1024), screenshots, preview video (post-high-fidelity design)
 - **Reference:** VAULT/08-investor-data-room-checklist.md (Section 6: App Store Listing Draft)
 
-### 23. Press Pitch List
+### 31. Press Pitch List
 - **What:** Build list of 20-30 target publications and contacts for launch PR
 - **Reference:** VAULT/08-investor-data-room-checklist.md (Section 10: GTM Strategy)
 
-### 24. Influencer/Thought Leader List
+### 32. Influencer/Thought Leader List
 - **What:** Identify 20-30 spiritual/wellness influencers for outreach
 - **Reference:** VAULT/08-investor-data-room-checklist.md (Section 10: Partnership Pipeline)
 
-### 25. Product Demo Video
+### 33. Product Demo Video
 - **What:** Create narrated mockup walkthrough (pre-prototype) or screen recording (post-prototype)
 - **Reference:** VAULT/08-investor-data-room-checklist.md (Section 1: Product Demo Video)
 
@@ -153,8 +192,11 @@ Answer the following questions (from VAULT/analysis/hours-commitment-questions.m
 | Basic brand system | 4-6 |
 | App icon concept | 2-3 |
 | Landing page optimization | 3-5 |
+| Landing page deployment | 2-4 |
+| Company fact sheet design | 2-3 |
 | Bio + headshot | 1-2 |
 | Pitch deck update | 3-5 |
-| **Total immediate** | **32-51 hrs** |
+| LinkedIn profile update | 0.5 |
+| **Total immediate** | **37-59 hrs** |
 
 These deliverables are the highest-impact work for closing the SAFE. Every hour spent here directly increases the probability of funding.

@@ -18,7 +18,7 @@ Defines how the founding team makes decisions, resolves conflicts, and handles e
 | John Wyrick (Sheikh Firdousi) | Co-Founder & CEO / Spiritual Director | **[DATE NEEDED]** | Vision, spiritual IP, 40yr teaching lineage, Masnavi translations, guided journey content |
 | Todd Bowden, PhD | Co-Founder & CTO | **[DATE NEEDED]** | App architecture, iOS/Android development, AI integration, technical infrastructure |
 | Yalor Mewn | Co-Founder & COO | **[DATE NEEDED]** | Business operations, fundraising, financial management, partnerships |
-| Stuart Paul | Co-Founder & CDO / Marketing Lead | **[DATE NEEDED]** | Brand, UI/UX design, pitch deck, investor materials, landing page, marketing strategy & execution |
+| Stuart Paul | Co-Founder & CDO | **[DATE NEEDED]** | Brand, UI/UX design, pitch deck, investor materials, marketing strategy |
 
 ---
 
@@ -50,7 +50,7 @@ To bring Rumi's wisdom into the hands of millions — daily, authentically, beau
 | Spiritual/Content Integrity | John (CEO) | Veto power on authenticity |
 | Technical Architecture | Todd (CTO) | Consult team, final authority |
 | Business Operations | Yalor (COO) | Consult team, final authority |
-| Brand, Design & Marketing | Stuart (CDO / Marketing Lead) | Consult team, final authority |
+| Brand, Design & Marketing | Stuart (CDO) | Consult team, final authority |
 | Equity & Ownership | Full Team | Unanimous consent required |
 | Major Pivots | Full Team | Unanimous consent required |
 | Hiring/Firing | Relevant Lead + CEO | Consultation with team |
@@ -330,7 +330,7 @@ A 4-founder company should have 4 board seats at pre-seed. Excluding any co-foun
 | Seat 1 | John Wyrick (CEO) | Founder seat |
 | Seat 2 | Todd Bowden (CTO) | Founder seat |
 | Seat 3 | Yalor Mewn (COO) | Founder seat |
-| Seat 4 | Stuart Paul (CDO / Marketing Lead) | Founder seat |
+| Seat 4 | Stuart Paul (CDO) | Founder seat |
 
 **At Series A (projected):** Expand to 5 seats:
 
@@ -374,7 +374,7 @@ By signing, all founders agree to this governance framework:
 | John Wyrick | Co-Founder & CEO | _____________ | _____ |
 | Todd Bowden | Co-Founder & CTO | _____________ | _____ |
 | Yalor Mewn | Co-Founder & COO | _____________ | _____ |
-| Stuart Paul | Co-Founder & CDO / Marketing Lead | _____________ | _____ |
+| Stuart Paul | Co-Founder & CDO | _____________ | _____ |
 
 ---
 

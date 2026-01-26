@@ -22,10 +22,10 @@ Defines who is **R**esponsible, **A**ccountable, **C**onsulted, and **I**nformed
 
 | Code | Name | Role |
 |------|------|------|
-| JW | John Wyrick (Sheikh Firdousi) | Co-Founder & Spiritual Director / CEO |
-| TB | Todd Bowden, PhD | Co-Founder & Technology Lead / CTO |
+| JW | John Wyrick (Sheikh Firdousi) | Co-Founder & CEO / Spiritual Director |
+| TB | Todd Bowden, PhD | Co-Founder & CTO |
 | YM | Yalor Mewn | Co-Founder & COO / Interim Product Owner |
-| SP | Stuart Paul | Co-Founder & CDO / Marketing Lead |
+| SP | Stuart Paul | Co-Founder & CDO |
 | BR | Ben Rewis | Advisor (non-voting, consulted) |
 
 ---

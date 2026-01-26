@@ -43,7 +43,7 @@ Tracks ownership percentages, share classes, and equity allocation for all found
 | John Wyrick | Co-Founder/CEO | 3,000,000 | **[JW %]** | 4 years | 1 year | Originator, spiritual IP, 40yr teaching |
 | Todd Bowden | Co-Founder/CTO | 2,500,000 | **[TB %]** | 4 years | 1 year | PhD, 11yr Apple dev, builds the product |
 | Yalor Mewn | Co-Founder/COO | 2,000,000 | **[YM %]** | 4 years | 1 year | Ops, fundraising, startup experience |
-| Stuart Paul | Co-Founder/CDO   | 1,000,000 | **[SP %]** | 4 years | 1 year | Brand, UI/UX, pitch deck, investor materials, marketing |
+| Stuart Paul | Co-Founder/CDO | 1,000,000 | **[SP %]** | 4 years | 1 year | Brand, UI/UX, pitch deck, marketing |
 | Employee Option Pool | Reserved | 1,500,000 | **15%** | - | - | For future hires (UI/UX, Marketing, Android dev, etc.) |
 | **TOTAL** | | **10,000,000** | **100%** | | | |
 
@@ -171,7 +171,7 @@ With a post-money SAFE, the $250K investor gets exactly $250K / $4M = **6.25%** 
 | John Wyrick | Co-Founder/CEO | **[JW %]** | [JW %] x 0.9375 |
 | Todd Bowden | Co-Founder/CTO | **[TB %]** | [TB %] x 0.9375 |
 | Yalor Mewn | Co-Founder/COO | **[YM %]** | [YM %] x 0.9375 |
-| Stuart Paul | Co-Founder & CDO / Marketing Lead | **[SP %]** | [SP %] x 0.9375 |
+| Stuart Paul | Co-Founder/CDO | **[SP %]** | [SP %] x 0.9375 |
 | Employee Option Pool | Reserved | **15.00%** | 14.06% |
 | SAFE Investors | Investors | 0% | **6.25%** |
 | **TOTAL** | | **100%** | **100%** |

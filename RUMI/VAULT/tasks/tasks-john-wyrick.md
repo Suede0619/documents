@@ -56,11 +56,32 @@ Generated: January 26, 2026
 - **Why important:** Investors WILL ask this. John's answer (authentic lineage, lived practice, original scholarship) is the strongest response.
 - **Deliverable:** 2-3 paragraph written answer for pitch preparation
 
+### 9. LinkedIn Profile Update
+- **What:** Update LinkedIn profile to reflect Rumi App Co-Founder & CEO / Spiritual Director role
+- **Deliverable:** Updated LinkedIn profile URL
+- **Reference:** VAULT/08-investor-data-room-checklist.md (Section 5: LinkedIn Profiles)
+
+### 10. User Conversations (5-10)
+- **What:** Talk to 5-10 spiritual seekers about their practice and interest in a Rumi-focused app. Document insights and quotes.
+- **Why important:** John's conversations carry unique weight — he speaks the language of the target audience
+- **Deliverable:** Notes with key quotes and insights (contribute to shared summary)
+- **Reference:** VAULT/08-investor-data-room-checklist.md (Section 9: Customer Testimonials)
+
+### 11. Translation Rights — IP Assignment
+- **What:** Formally assign all original Rumi translations, modern retellings, and guided journey scripts to the company. This is the company's core IP asset.
+- **Deliverable:** Signed IP assignment specifying all translation/retelling works
+- **Reference:** VAULT/08-investor-data-room-checklist.md (Section 7: Translation Rights)
+
+### 12. NPS Survey — Participation
+- **What:** Contribute to NPS survey design and help recruit beta users for responses
+- **Deliverable:** Survey input and outreach to spiritual community contacts
+- **Reference:** VAULT/08-investor-data-room-checklist.md (Section 9: NPS/Satisfaction Data)
+
 ---
 
 ## TEAM DECISIONS (Requires All Founders)
 
-### 9. Hours & Commitment Clarification
+### 13. Hours & Commitment Clarification
 Answer the following questions (from VAULT/analysis/hours-commitment-questions.md):
 1. Breakdown of ~1,000 hours by category
 2. Specific deliverables inventory from those hours
@@ -69,34 +90,44 @@ Answer the following questions (from VAULT/analysis/hours-commitment-questions.m
 5. Going-forward commitment through launch and beyond
 6. Will you track hours going forward?
 
-### 10. Incorporation Decision
+### 14. Incorporation Decision
 - **What:** Agree on entity type (Delaware C-Corp recommended), company legal name
 - **Reference:** VAULT/09-cap-table.md
 
-### 11. App Name Decision
+### 15. App Name Decision
 - **What:** Finalize app name ("Rumi Sanctuary" recommended)
 - **Reference:** documents/RUMI/consciousBiz/app-naming-analysis.md
 
-### 12. Founder Agreement Review & Sign
+### 16. Founder Agreement Review & Sign
 - **What:** Review and sign founder agreement once drafted
 - **Reference:** VAULT/10-team-governance.md
 
-### 13. 83(b) Election
+### 17. 83(b) Election
 - **What:** File 83(b) election with IRS within 30 days of stock grant — HARD DEADLINE
 - **Reference:** VAULT/09-cap-table.md
+
+### 18. Outside Activities Disclosure
+- **What:** Disclose all outside activities per founder agreement
+- **Deliverable:** Written disclosure
+- **Reference:** VAULT/10-team-governance.md
+
+### 19. Founder Join Date
+- **What:** Provide official join date for documentation
+- **Deliverable:** Date provided
+- **Reference:** VAULT/10-team-governance.md
 
 ---
 
 ## MEDIUM PRIORITY (Before Launch)
 
-### 14. App Store Description
+### 20. App Store Description
 - **What:** Write or contribute to the App Store description (spiritual content voice)
 - **Reference:** VAULT/08-investor-data-room-checklist.md (Section 6: App Store Listing Draft)
 
-### 15. Partnership Identification
+### 21. Partnership Identification
 - **What:** Identify Sufi communities, meditation centers, and spiritual organizations for partnerships
 - **Reference:** VAULT/08-investor-data-room-checklist.md (Section 10: Partnership Pipeline)
 
-### 16. Podcast/Speaking Readiness
+### 22. Podcast/Speaking Readiness
 - **What:** Be prepared for podcast appearances and speaking engagements as the spiritual authority
 - **Reference:** VAULT/08-investor-data-room-checklist.md (Section 10: GTM Strategy)

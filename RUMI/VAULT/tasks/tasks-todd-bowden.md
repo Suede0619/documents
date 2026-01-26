@@ -70,11 +70,31 @@ Generated: January 26, 2026
 - **Deliverable:** Written list of data collected + third-party integrations
 - **Reference:** VAULT/08-investor-data-room-checklist.md (Section 8: Privacy Policy)
 
+### 10. Product Demo Video
+- **What:** Record screen recording of working prototype (2-3 minutes) for investor data room
+- **Deliverable:** MP4 video file
+- **Reference:** VAULT/08-investor-data-room-checklist.md (Section 1: Product Demo Video)
+
+### 11. LinkedIn Profile Update
+- **What:** Update LinkedIn profile to reflect Rumi App Co-Founder & CTO role
+- **Deliverable:** Updated LinkedIn profile URL
+- **Reference:** VAULT/08-investor-data-room-checklist.md (Section 5: LinkedIn Profiles)
+
+### 12. Beta Metrics Reporting
+- **What:** Report engagement data from Mixpanel (DAU, session length, retention) for investor materials
+- **Deliverable:** Metrics dashboard or summary document
+- **Reference:** VAULT/08-investor-data-room-checklist.md (Section 6: Beta User Metrics)
+
+### 13. GDPR/CCPA Technical Implementation
+- **What:** Implement GDPR consent flows, data deletion capability, CCPA notice if serving CA/EU users
+- **Deliverable:** Technical compliance implementation
+- **Reference:** VAULT/08-investor-data-room-checklist.md (Section 8: GDPR/CCPA)
+
 ---
 
 ## TEAM DECISIONS (Requires All Founders)
 
-### 10. Hours & Commitment Clarification
+### 14. Hours & Commitment Clarification
 Answer the following questions (from VAULT/analysis/hours-commitment-questions.md):
 1. Breakdown of ~1,000 hours by category
 2. Specific technical deliverables from those hours (working prototype? codebase? architecture docs?)
@@ -83,31 +103,49 @@ Answer the following questions (from VAULT/analysis/hours-commitment-questions.m
 5. Going-forward commitment — when do you plan to go full-time?
 6. Will you track hours going forward?
 
-### 11. Incorporation Decision
+### 15. Incorporation Decision
 - **What:** Agree on entity type (Delaware C-Corp recommended), company legal name
 - **Reference:** VAULT/09-cap-table.md
 
-### 12. Founder Agreement Review & Sign
+### 16. Founder Agreement Review & Sign
 - **What:** Review and sign founder agreement once drafted
 - **Reference:** VAULT/10-team-governance.md
 
-### 13. 83(b) Election
+### 17. 83(b) Election
 - **What:** File 83(b) election with IRS within 30 days of stock grant — HARD DEADLINE
 - **Reference:** VAULT/09-cap-table.md
+
+### 18. App Name Decision
+- **What:** Participate in finalizing app name ("Rumi Sanctuary" recommended)
+- **Reference:** documents/RUMI/consciousBiz/app-naming-analysis.md
+
+### 19. Outside Activities Disclosure
+- **What:** Disclose all outside activities per founder agreement
+- **Deliverable:** Written disclosure
+- **Reference:** VAULT/10-team-governance.md
+
+### 20. Founder Join Date
+- **What:** Provide official join date for documentation
+- **Deliverable:** Date provided
+- **Reference:** VAULT/10-team-governance.md
 
 ---
 
 ## MEDIUM PRIORITY (Before Launch)
 
-### 14. Set Up Analytics
+### 21. Set Up Analytics
 - **What:** Integrate Mixpanel (free tier) into the app for beta metrics tracking
 - **Reference:** VAULT/08-investor-data-room-checklist.md (Section 6: Beta User Metrics)
 
-### 15. Working Prototype
+### 22. Working Prototype
 - **What:** Build a working prototype demonstrable to investors (even rough)
 - **Why important:** Dramatically increases investor close rate. Not required but high-impact.
 - **Reference:** VAULT/08-investor-data-room-checklist.md (Section 6: Product Roadmap)
 
-### 16. QA Process
+### 23. App Store Technical Submission
+- **What:** Handle technical requirements for App Store submission (provisioning, signing, build upload)
+- **Reference:** VAULT/08-investor-data-room-checklist.md (Section 6: App Store Listing Draft)
+
+### 24. QA Process
 - **What:** Own Thursday release builds and Wednesday QA per release train schedule
 - **Reference:** VAULT/06-release-train-schedule.md
