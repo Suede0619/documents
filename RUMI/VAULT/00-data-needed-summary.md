@@ -1,239 +1,142 @@
 # Data Needed Summary
 
 Rumi App - All Missing Information Across VAULT Documents  
-Last Updated: January 21, 2026
+Last Updated: January 26, 2026
 
 ---
 
 ## Overview
 
-This document consolidates all data gaps across the 10 VAULT documents. Use this as a checklist to gather missing information for investor readiness and operational clarity.
+This document consolidates all remaining data gaps across the 10 VAULT documents. All documents have been completed to 70-80% with industry standards, benchmarks, interpolated projections, and recommendations. The remaining items below require **team decisions or factual data** that only the founders can provide.
+
+---
+
+## Progress Summary
+
+| Document | Status | Completion |
+|----------|--------|------------|
+| 01 - Cash Flow Forecast | 🟡 Draft Complete | ~75% — needs actual cash/expense data |
+| 02 - Weighted Sales Forecast | ✅ Draft Complete | ~90% — needs team validation |
+| 03 - RACI Matrix | ✅ Draft Complete | ~95% — open questions resolved with recommendations |
+| 04 - Organizational Chart | 🟡 Draft Complete | ~85% — needs equity percentages |
+| 05 - Job Descriptions | ✅ Draft Complete | ~95% — ready for posting |
+| 06 - Release Train Schedule | ✅ Draft Complete | ~90% — needs start date and meeting times confirmed |
+| 07 - Product Owner Charter | ✅ Draft Complete | ~90% — needs signatures |
+| 08 - Investor Data Room Checklist | ✅ Draft Complete | ~90% — tracking doc, updates as items complete |
+| 09 - Cap Table | 🟡 Draft Complete | ~70% — needs equity split decision (critical) |
+| 10 - Team Governance | 🟡 Draft Complete | ~75% — needs team decisions on terms |
 
 ---
 
 ## Priority Legend
 
-- 🔴 **Critical** - Blocks investor conversations
-- 🟡 **High** - Needed before funding close
-- 🟢 **Medium** - Needed for operations
-- ⚪ **Low** - Nice to have
+- 🔴 **Critical** — Blocks investor conversations. Must resolve before any investor meeting.
+- 🟡 **High** — Needed before funding close.
+- 🟢 **Medium** — Needed for operations.
 
 ---
 
-## 1. Financial Data
+## REMAINING DECISIONS REQUIRED (Team Must Decide)
 
-### Cash Flow Forecast (Document 01)
+### 🔴 Critical — Resolve This Week
 
-| Data Needed | Priority | Owner | Notes |
-|-------------|----------|-------|-------|
-| Cash on hand amount | 🔴 | Yalor | Current bank balance |
-| Monthly salaries/contractor payments | 🔴 | Yalor | Breakdown by team member |
-| Infrastructure costs (servers, APIs) | 🟡 | Todd | Monthly hosting/services |
-| Software subscription costs | 🟢 | Yalor | ClickUp, Figma, etc. |
-| Legal/accounting costs | 🟡 | Yalor | Monthly retainer or estimates |
-| Insurance costs | 🟢 | Yalor | D&O insurance mentioned by Ben |
-| Marketing spend plan by month | 🟡 | Yalor | From $100K allocation |
-| Content creation costs | 🟢 | John | Guided journeys, Hafez prep |
-| Monthly burn rate | 🔴 | Yalor | Calculated from above |
-| Current runway (months) | 🔴 | Yalor | Cash ÷ burn |
-| Break-even revenue needed | 🟡 | Yalor | Monthly $ to cover costs |
-| Break-even subscribers needed | 🟡 | Yalor | Revenue ÷ $100 avg |
+| # | Decision | Owner | Document(s) Affected | Recommendation |
+|---|----------|-------|---------------------|----------------|
+| 1 | **Entity type: LLC or C-Corp?** | YM/Team | 09, 08 | **C-Corp** (required for SAFE notes, standard for VC) |
+| 2 | **State of incorporation** | YM/Team | 09, 08 | **Delaware** (most investor-friendly) |
+| 3 | **Founder equity split (JW, TB, YM, SP percentages)** | All founders | 09, 04, 10 | See Cap Table Doc 09 for three benchmark patterns |
+| 4 | **Employee option pool size** | Team | 09 | **15%** (industry standard) |
+| 5 | **Cash on hand (current bank balance)** | YM | 01 | Required for runway calculation |
+| 6 | **Monthly salaries/contractor payments** | YM | 01 | Required for burn rate |
 
-### Weighted Sales Forecast (Document 02)
+### 🟡 High — Resolve Before February Ben Session
 
-| Data Needed | Priority | Owner | Notes |
-|-------------|----------|-------|-------|
-| Q2/Q3 2027 scenario details | 🟢 | Yalor | Conservative/Aggressive numbers |
-| Monthly vs annual subscription mix | 🟡 | Yalor | Assumed 60/40 - validate |
-| App Store approval timeline risk | 🟢 | Todd | Impact on launch |
-| Marketing channel performance estimates | 🟡 | Yalor | CAC by channel |
-| Churn rate assumptions | 🟡 | Yalor | Monthly/annual churn |
+| # | Decision | Owner | Document(s) Affected | Recommendation |
+|---|----------|-------|---------------------|----------------|
+| 7 | **Vesting start dates for each founder** | Team | 09, 10 | Date of incorporation or when work began |
+| 8 | **Acceleration terms (single/double trigger)** | Team | 09, 10 | Double trigger: 25% single, 100% double |
+| 9 | **Ben Rewis advisor equity** | Team | 09 | 0.50% - 1.00% with 2yr vesting |
+| 10 | **SAFE type (pre-money vs post-money)** | YM | 09 | YC Post-Money SAFE |
+| 11 | **SAFE discount percentage** | YM | 09 | 20% standard, or cap-only |
+| 12 | **Time commitment per founder** | Each founder | 10 | Full-time/part-time/hours per week |
+| 13 | **Post-funding founder stipends** | Team | 01, 10 | $8K-$16K/month total team |
+| 14 | **Infrastructure costs (servers, APIs)** | TB | 01 | Estimate needed from Todd |
+| 15 | **Software subscription costs** | YM | 01 | List all current tools and costs |
+| 16 | **John's content IP: assign or license?** | JW/Team | 10 | **Assign** (investors require company to own core IP) |
+| 17 | **Spending approval thresholds** | Team | 10 | $2,500 / $10,000 / $25,000 recommended |
+| 18 | **Board composition** | Team | 10, 09 | 3-person founder board at pre-seed |
 
----
+### 🟢 Medium — Resolve Before Launch
 
-## 2. Team & Organization Data
-
-### RACI Matrix (Document 03)
-
-| Data Needed | Priority | Owner | Notes |
-|-------------|----------|-------|-------|
-| Product Owner confirmation | 🟡 | Team | Is Yalor permanent PO? |
-| Customer support owner | 🟢 | Team | Post-launch assignment |
-
-### Organizational Chart (Document 04)
-
-| Data Needed | Priority | Owner | Notes |
-|-------------|----------|-------|-------|
-| UI/UX Designer salary budget | 🟡 | Yalor | From $50K team allocation |
-| Marketing Specialist salary budget | 🟡 | Yalor | From $50K team allocation |
-| Equity percentages for all founders | 🔴 | Team | JW, TB, YM, SP splits |
-| Vesting terms documentation | 🔴 | Team | Start dates, cliff dates |
-| Ben Rewis equity percentage | 🟡 | Team | Advisor allocation |
-| Employee option pool size | 🔴 | Team | % reserved for hires |
-
-### Job Descriptions (Document 05)
-
-| Data Needed | Priority | Owner | Notes |
-|-------------|----------|-------|-------|
-| Salary ranges for planned hires | 🟡 | Yalor | Market research needed |
-| Equity ranges for planned hires | 🟡 | Team | From option pool |
+| # | Decision | Owner | Document(s) Affected | Recommendation |
+|---|----------|-------|---------------------|----------------|
+| 19 | **Release train start date** | Team | 06 | ~June 2026 (4 weeks before iOS launch) |
+| 20 | **Meeting times (PT)** | Team | 06 | 10:00 AM PT recommended |
+| 21 | **Slack channel names** | Team | 06 | #release-train, #beta-feedback, #bugs |
+| 22 | **Beta group recruitment source** | YM | 06 | Waitlist, social, Rumi communities |
+| 23 | **Non-compete terms** | Team | 10 | 12 months, narrow scope (note: unenforceable in CA) |
+| 24 | **Non-solicit terms** | Team | 10 | 18 months employees, 12 months customers |
+| 25 | **Outside activities disclosure** | Each founder | 10 | Each founder must disclose |
+| 26 | **Founder join dates** | Each founder | 10 | For documentation |
+| 27 | **Key person insurance** | YM | 10 | $500K-$1M on CEO and CTO |
+| 28 | **Data room platform** | YM | 08 | Google Drive initially, DocSend for active fundraising |
+| 29 | **Trademark filing** | YM | 08 | "Rumi App" / "Rumi Sanctuary" at USPTO |
 
 ---
 
-## 3. Process & Operations Data
+## REMAINING DOCUMENTS TO CREATE (Not in VAULT)
 
-### Release Train Schedule (Document 06)
+These items are tracked in the Investor Data Room Checklist (Doc 08) but need to be created separately:
 
-| Data Needed | Priority | Owner | Notes |
-|-------------|----------|-------|-------|
-| Release time (Thursday) | 🟢 | Todd | e.g., 2:00 PM PT |
-| Meeting times for each day | 🟢 | Team | Coordinate calendars |
-| Beta group sizes | 🟢 | Yalor | Groups A, B, C |
-| Slack channel name | 🟢 | Team | #release-train or similar |
-| Sprint targets (features/bugs) | 🟢 | Todd/Yalor | Weekly goals |
-| Start date for cadence | 🟡 | Team | When does this begin? |
-
-### Product Owner Charter (Document 07)
-
-| Data Needed | Priority | Owner | Notes |
-|-------------|----------|-------|-------|
-| Is Yalor permanent PO or interim? | 🟡 | Team | Governance decision |
-| Should PO be dedicated hire? | 🟢 | Team | Post-funding consideration |
-| Feedback tool selection | 🟢 | Todd | In-app or external |
-| Analytics tool selection | 🟢 | Todd | Mixpanel, Amplitude, etc. |
-| Survey tool selection | 🟢 | Yalor | For NPS tracking |
-| Minimum user contacts per month | 🟢 | Yalor | PO responsibility |
-| Charter signature dates | 🟡 | Team | Formalize agreement |
+| Document | Owner | Priority | Est. Effort |
+|----------|-------|----------|-------------|
+| Certificate of Incorporation | YM (via Clerky/Stripe Atlas) | 🔴 | 1-2 days + $500-$2,500 |
+| EIN / Tax ID | YM (IRS.gov) | 🔴 | 30 minutes (free, instant online) |
+| Founder Stock Purchase Agreements | YM/Legal | 🔴 | Included in Clerky package |
+| IP Assignment Agreements | YM/Legal | 🔴 | Included in Clerky or ~$500-$1,000 attorney |
+| 83(b) Elections | All founders | 🔴 | Must file within 30 days of stock grant |
+| SAFE Document | YM | 🟡 | Use YC template (free) |
+| Advisor Agreement (Ben Rewis) | YM | 🟡 | Use FAST Agreement template (free) |
+| Executive Summary (1-pager) | YM | 🟡 | 2-3 hours |
+| Product Demo Video | TB/SP | 🟡 | 2-4 hours |
+| Technical Architecture Doc | TB | 🟡 | 2-3 hours |
+| Terms of Service | YM/Legal | 🟢 | Use Termly or iubenda (~$100/yr) |
+| Privacy Policy | YM/Legal | 🟢 | Use Termly or iubenda (~$100/yr) |
+| App Store Listing Draft | SP/YM | 🟢 | 3-4 hours |
 
 ---
 
-## 4. Legal & Corporate Data
+## Immediate Action Items (Before January 31, 2026)
 
-### Investor Data Room (Document 08)
+1. [ ] **Schedule founder equity discussion** — all 4 founders, 1-2 hours
+2. [ ] **Confirm entity type** — C-Corp recommended, team must agree
+3. [ ] **YM: gather cash on hand and monthly expense data**
+4. [ ] **YM: begin Clerky/Stripe Atlas incorporation process**
+5. [ ] **Each founder: disclose outside activities and time commitment**
 
-| Data Needed | Priority | Owner | Notes |
-|-------------|----------|-------|-------|
-| State of incorporation | 🔴 | Yalor | DE, CA, etc.? |
-| Entity type (LLC vs C-Corp) | 🔴 | Yalor | Impacts investor structure |
-| EIN/Tax ID | 🔴 | Yalor | Required for SAFE |
-| Certificate of incorporation | 🔴 | Yalor | Legal document |
-| Operating agreement/bylaws | 🔴 | Yalor | Legal document |
-| Good standing certificate | 🟡 | Yalor | From state |
-| Executive summary (1-pager) | 🟡 | Yalor | For quick investor review |
-| Product demo video | 🟡 | Todd/Stuart | Screen recording |
-| Technical architecture doc | 🟢 | Todd | System diagram |
-| App Store listing draft | 🟢 | Stuart/Yalor | Copy and screenshots |
-| Beta user metrics | 🟡 | Todd | 150 users - engagement data |
-| User feedback summary | 🟡 | Yalor | Quotes, ratings |
-| Terms of Service draft | 🟡 | Yalor/Legal | Required for launch |
-| Privacy Policy draft | 🟡 | Yalor/Legal | Required for launch |
-| GDPR/CCPA compliance plan | 🟢 | Todd/Yalor | Data privacy |
-| Trademark application status | 🟢 | Yalor | "Rumi App" |
-| LinkedIn profile URLs | 🟢 | All | For data room |
-| IP assignment agreements | 🔴 | Yalor/Legal | Critical for content |
-| Data room platform selection | 🟡 | Yalor | Google Drive, DocSend, etc. |
+## Before February Session with Ben
 
-### Cap Table (Document 09)
+1. [ ] **Complete cash flow forecast** with actual data (from founder discussion)
+2. [ ] **Finalize equity split** (cap table becomes actionable)
+3. [ ] **Build RACI matrix in ClickUp** (Doc 03 → ClickUp)
+4. [ ] **Schedule governance meeting** to formalize founder agreement
+5. [ ] **Begin incorporation** (Clerky process takes 1-2 weeks)
 
-| Data Needed | Priority | Owner | Notes |
-|-------------|----------|-------|-------|
-| Entity type confirmation | 🔴 | Yalor | LLC or C-Corp |
-| Total authorized shares | 🔴 | Yalor | If C-Corp |
-| Exact founder equity splits | 🔴 | Team | JW, TB, YM, SP percentages |
-| Vesting start dates | 🔴 | Team | For each founder |
-| Ben Rewis advisor equity | 🟡 | Team | Percentage and vesting |
-| Employee option pool size | 🔴 | Team | Typical 10-15% |
-| SAFE discount percentage | 🟡 | Yalor | Typically 20% |
-| Pro-rata rights for SAFE | 🟡 | Yalor | Yes/No |
-| MFN clause for SAFE | 🟡 | Yalor | Yes/No |
-| Acceleration terms | 🟡 | Team | Single/double trigger |
-| Stock purchase agreements | 🔴 | Yalor/Legal | Founder agreements |
-| 83(b) elections filed | 🔴 | All | Tax critical |
+## Before First Investor Meeting (Target: April 2026)
 
-### Team Governance (Document 10)
-
-| Data Needed | Priority | Owner | Notes |
-|-------------|----------|-------|-------|
-| Founder join dates | 🟢 | Team | For documentation |
-| Time commitment per founder | 🟡 | Team | Full-time/part-time/hours |
-| Outside activities disclosure | 🟢 | Team | Any conflicts |
-| Post-funding salary structure | 🟡 | Team | What do founders get paid? |
-| Expense reimbursement policy | 🟢 | Yalor | What's covered |
-| Single trigger acceleration % | 🟡 | Team | e.g., 25% on CoC |
-| Double trigger acceleration % | 🟡 | Team | e.g., 100% if terminated |
-| Good/bad leaver definitions | 🟡 | Team | Departure terms |
-| Buyout price formula | 🟡 | Team | FMV or formula |
-| Death/disability provisions | 🟢 | Team | Estate/insurance |
-| Key person insurance | 🟢 | Yalor | Yes/No, amounts |
-| Non-compete terms | 🟡 | Team | Duration, geography |
-| Non-solicit terms | 🟡 | Team | Duration |
-| Confidentiality duration | 🟢 | Team | Years post-departure |
-| Spending approval threshold | 🟢 | Team | $ amount requiring approval |
-| Board composition | 🟡 | Team | Who sits on board? |
-
----
-
-## Summary by Priority
-
-### 🔴 Critical (Blocks Investor Conversations) - 18 Items
-
-1. Cash on hand amount
-2. Monthly salaries/contractor payments
-3. Monthly burn rate
-4. Current runway (months)
-5. Equity percentages for all founders (JW, TB, YM, SP)
-6. Vesting terms documentation
-7. Employee option pool size
-8. State of incorporation
-9. Entity type (LLC vs C-Corp)
-10. EIN/Tax ID
-11. Certificate of incorporation
-12. Operating agreement/bylaws
-13. IP assignment agreements
-14. Total authorized shares (if C-Corp)
-15. Exact founder equity splits
-16. Vesting start dates
-17. Stock purchase agreements
-18. 83(b) elections filed
-
-### 🟡 High (Before Funding Close) - 32 Items
-
-*See individual documents for full list*
-
-### 🟢 Medium (Operations) - 25+ Items
-
-*See individual documents for full list*
-
----
-
-## Immediate Action Items
-
-### This Week (Before Jan 28, 2026)
-
-1. [ ] Confirm entity type and state of incorporation
-2. [ ] Gather all founder equity percentage proposals
-3. [ ] Calculate current cash on hand
-4. [ ] List all current monthly expenses
-5. [ ] Calculate burn rate and runway
-
-### Before February Meeting with Ben
-
-1. [ ] Complete cash flow forecast with real numbers
-2. [ ] Build RACI matrix in ClickUp
-3. [ ] Schedule team governance discussion
-4. [ ] Gather all legal documents for data room
-
-### Before Series A Preparation
-
-1. [ ] All legal documents in place
-2. [ ] Cap table formalized in Carta/Pulley
-3. [ ] Data room fully populated
-4. [ ] All governance documents signed
+1. [ ] **Incorporation complete** with all founder agreements signed
+2. [ ] **83(b) elections filed** (within 30 days of stock grants)
+3. [ ] **Cap table formalized** in Pulley
+4. [ ] **IP assignments executed** (especially John's content)
+5. [ ] **Data room populated** (80%+ checklist complete)
+6. [ ] **Executive summary and demo video created**
+7. [ ] **SAFE document prepared** (YC template)
 
 ---
 
 ## Notes
 
-- Mark items complete as data is gathered
-- Update VAULT documents with real data as obtained
-- Review this summary weekly until all critical items resolved
+- This summary should be reviewed weekly until all 🔴 Critical items are resolved
+- Update VAULT documents with real data as decisions are made
+- The February session with Ben Rewis is the target for having financial docs ready
+- Legal costs for full incorporation + founder agreements: budget $2,000-$5,000

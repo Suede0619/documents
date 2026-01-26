@@ -1,182 +1,252 @@
 # Release Train Schedule
 
 Rumi App - Weekly Development Cadence  
-Last Updated: January 21, 2026
+Last Updated: January 26, 2026
 
 ---
 
 ## Overview
 
-A predictable weekly rhythm for product development, testing, and release. Creates accountability and ensures regular customer feedback integration.
+A predictable weekly rhythm for product development, testing, and release. Creates accountability and ensures regular customer feedback integration. Per Ben Rewis (Jan 21, 2026): Implement a release train methodology with Thursday releases, Friday beta testing, and weekly feedback loops.
 
 ---
 
 ## Weekly Schedule
 
-| Day | Activity | Owner | Participants | Output |
-|-----|----------|-------|--------------|--------|
-| **Thursday** | Weekly Release (MVP n+1) | Todd Bowden | Dev team | New build deployed to beta |
-| **Friday** | Beta Testing | Yalor Mewn | Beta groups A/B/C | Testing feedback collected |
-| **Monday** | Feedback Integration | Todd Bowden | YM, SP | Prioritized bug/feedback list |
-| **Tuesday** | Product Release Discussion | Yalor Mewn | Full team | Next sprint scope decided |
-| **Wednesday** | Team QA | Full Team | All | Final QA before Thursday |
+| Day | Activity | Time (PT) | Owner (A) | Participants | Duration | Output |
+|-----|----------|-----------|-----------|-------------|----------|--------|
+| **Thursday** | Weekly Release (MVP n+1) | 2:00 PM | Todd (CTO) | TB, SP reviews | — | New build on TestFlight |
+| **Friday** | Beta Testing | All day | Yalor (COO/PO) | Beta groups A/B/C | Async | Feedback collected |
+| **Monday** | Feedback Integration | 10:00 AM | Yalor (PO) | TB, SP, JW (optional) | 45 min | Prioritized issue list |
+| **Tuesday** | Product Release Discussion | 10:00 AM | Yalor (PO) | Full team | 1 hour | Sprint scope confirmed |
+| **Wednesday** | Team QA | 10:00 AM - 1:00 PM | Full Team | All | 3 hours | QA sign-off for Thursday |
+
+**Cadence start date:** **[DECISION NEEDED]** — Recommend starting the cadence 4 weeks before target iOS launch (approximately June 2026) to establish rhythm during final development push.
 
 ---
 
 ## Thursday: Weekly Release
 
-**Time:** [RELEASE TIME - e.g., 2:00 PM PT]  
+**Time:** 2:00 PM PT  
 **Owner:** Todd Bowden (Accountable)  
+**Notification:** Post in #release-train Slack channel  
 
-### Checklist
-- [ ] All committed features complete
-- [ ] Code review completed
+### Pre-Release Checklist
+- [ ] All committed features for this sprint are complete
+- [ ] Code review completed (self-review minimum; peer review when available)
 - [ ] Unit tests passing
-- [ ] Build successfully compiles
-- [ ] Deploy to TestFlight/beta channel
-- [ ] Release notes drafted
-- [ ] Beta testers notified
+- [ ] Build successfully compiles for iOS (and Android when applicable)
+- [ ] No P0 bugs outstanding
+- [ ] Release notes drafted (what's new, what's fixed, known issues)
+
+### Release Process
+1. TB creates build in Xcode
+2. TB uploads to TestFlight
+3. TB posts release notes in #release-train
+4. TestFlight auto-notifies beta testers
+5. TB tags the release in Git (e.g., `v0.3.1-beta.42`)
 
 ### Deliverables
 - New build available on TestFlight
-- Release notes shared with team
-- Known issues documented
+- Release notes shared in #release-train
+- Known issues documented in ClickUp
+- Git tag created
+
+### If Release Cannot Ship
+1. TB notifies team by Wednesday 5:00 PM PT
+2. YM decides: delay to Friday, partial release, or skip week
+3. Communicate to beta testers (if partial/skip)
+4. Document reason in ClickUp and discuss at Tuesday retro
 
 ---
 
 ## Friday: Beta Testing
 
-**Time:** All day  
+**Time:** All day (async)  
 **Owner:** Yalor Mewn (Accountable)  
+**Channel:** #beta-feedback Slack channel (or dedicated feedback tool)  
 
 ### Beta Groups
 
-| Group | Size | Profile | Focus |
-|-------|------|---------|-------|
-| Group A | [SIZE] | Power users, early adopters | Deep feature testing |
-| Group B | [SIZE] | Target demographic match | UX and flow testing |
-| Group C | [SIZE] | General audience | First impressions, onboarding |
+| Group | Size | Profile | Focus | Rotation |
+|-------|------|---------|-------|----------|
+| **Group A** | 20-30 users | Power users, early adopters, Rumi enthusiasts | Deep feature testing, edge cases | Stable core group |
+| **Group B** | 30-50 users | Target demographic (spiritual seekers, 25-55) | UX flow, emotional response, daily habit | Rotate 20% monthly |
+| **Group C** | 50-70 users | General audience, casual users | First impressions, onboarding clarity | Rotate 50% monthly |
+| **Total** | **100-150 users** | | | |
 
-### Feedback Collection
-- In-app feedback mechanism
-- Structured survey (weekly)
-- Direct messages/emails
-- Analytics review
+**Recruitment sources for beta testers:**
+- Existing waitlist / landing page signups
+- Social media followers
+- Rumi book communities (Goodreads, Reddit r/Rumi)
+- Meditation / spiritual practice communities
+- John's existing spiritual community
+
+### Feedback Collection Methods
+
+| Method | Tool | When | Owner |
+|--------|------|------|-------|
+| In-app feedback button | Custom build or Instabug | Ongoing | TB builds, YM monitors |
+| Weekly structured survey | Typeform | Friday PM (auto-sent) | YM |
+| Direct messages | Slack DM or email | As needed | YM triages |
+| Usage analytics | Mixpanel | Continuous | TB configures, YM reviews |
+| Video recordings | Loom (user-submitted) | Optional | YM requests for specific flows |
+
+### Friday Survey Template (5 questions max)
+1. What did you use the app for today? (open text)
+2. Rate today's daily verse (1-5 stars)
+3. Did anything confuse or frustrate you? (open text)
+4. What would make you come back tomorrow? (open text)
+5. Would you recommend this app to a friend? (NPS: 0-10 scale)
 
 ### Deliverables
-- Raw feedback compiled
-- Critical bugs flagged immediately
-- User quotes captured
+- Raw feedback compiled in ClickUp or Notion
+- Critical bugs flagged immediately in #release-train (tag @todd)
+- User quotes captured for marketing and investor materials
+- Weekly NPS score tracked
 
 ---
 
 ## Monday: Feedback Integration
 
-**Time:** [MEETING TIME - e.g., 10:00 AM PT]  
-**Owner:** Todd Bowden (Accountable)  
-**Duration:** 1 hour  
+**Time:** 10:00 AM PT  
+**Owner:** Yalor Mewn (Accountable)  
+**Duration:** 45 minutes  
+**Attendees:** YM, TB, SP (JW optional — invited for content-related feedback)  
+**Location:** Zoom / Google Meet (or Slack huddle)  
 
 ### Agenda
-1. Review weekend feedback (15 min)
-2. Triage bugs by severity (15 min)
-3. Prioritize feature requests (15 min)
-4. Assign items for current sprint (15 min)
+1. **Weekend feedback review** (15 min) — YM presents top themes and quotes
+2. **Bug triage** (10 min) — TB classifies by severity
+3. **Feature request patterns** (10 min) — YM highlights recurring requests
+4. **Sprint impact assessment** (10 min) — Team decides what enters this week's work
 
 ### Prioritization Framework
 
-| Priority | Definition | Response |
-|----------|------------|----------|
-| P0 - Critical | App crash, data loss, security | Fix immediately |
-| P1 - High | Major feature broken | Fix this sprint |
-| P2 - Medium | Minor bug, UX issue | Next sprint |
-| P3 - Low | Enhancement, nice-to-have | Backlog |
+| Priority | Definition | Response Time | Example |
+|----------|------------|---------------|---------|
+| **P0 - Critical** | App crash, data loss, security issue | Fix within 24 hours | App won't launch; user data exposed |
+| **P1 - High** | Major feature broken, blocks core flow | Fix this sprint | Daily verse not loading; payment fails |
+| **P2 - Medium** | Minor bug, UX confusion, cosmetic | Next sprint | Misaligned text; slow animation |
+| **P3 - Low** | Enhancement, nice-to-have, polish | Backlog | "Would be nice if..." requests |
 
 ### Deliverables
-- Prioritized issue list
-- Sprint backlog updated
-- Assignments clear
+- Prioritized issue list updated in ClickUp
+- Sprint backlog adjusted if P0/P1 items found
+- Assignments clear for the week
 
 ---
 
 ## Tuesday: Product Release Discussion
 
-**Time:** [MEETING TIME - e.g., 10:00 AM PT]  
+**Time:** 10:00 AM PT  
 **Owner:** Yalor Mewn (Accountable)  
 **Duration:** 1 hour  
-**Attendees:** Full team  
+**Attendees:** Full team (JW, TB, YM, SP)  
+**Location:** Zoom / Google Meet  
 
 ### Agenda
-1. Demo of current build (10 min)
-2. Review metrics and feedback (10 min)
-3. Discuss next sprint scope (20 min)
-4. Trade-off decisions (15 min)
-5. Confirm Thursday release scope (5 min)
+1. **Demo of current build** (10 min) — TB or SP screen-shares latest
+2. **Metrics review** (10 min) — YM shares DAU, retention, NPS, feedback themes
+3. **Sprint scope discussion** (20 min) — What ships Thursday? What gets deferred?
+4. **Trade-off decisions** (15 min) — PO makes calls with team input
+5. **Confirm Thursday release scope** (5 min) — Clear, written list of what ships
 
-### Key Questions
-- What ships Thursday?
-- What gets cut?
-- What moves to next sprint?
-- Any blockers?
+### Key Questions to Answer Every Tuesday
+- What ships this Thursday? (specific feature list)
+- What gets cut or deferred? (and why)
+- What moves to next sprint? (documented in backlog)
+- Any blockers that need resolution before Wednesday?
+- Is there a content/spiritual integrity question for John?
 
 ### Deliverables
-- Sprint scope confirmed
-- Trade-off decisions documented
-- Team aligned on priorities
+- Sprint scope confirmed and posted in #release-train
+- Trade-off decisions documented in ClickUp
+- Team aligned on Thursday delivery
+- Any design work needed identified (SP begins immediately)
 
 ---
 
 ## Wednesday: Team QA
 
-**Time:** [QA WINDOW - e.g., 9:00 AM - 12:00 PM PT]  
-**Owner:** Full Team  
-**Duration:** 3 hours  
+**Time:** 10:00 AM - 1:00 PM PT  
+**Owner:** Full Team (YM accountable for sign-off)  
+**Duration:** 3 hours (can be shorter if build is clean)  
+**Attendees:** All team members test independently, then sync  
+
+### QA Assignment by Role
+
+| Team Member | QA Focus Area |
+|-------------|---------------|
+| **Todd (CTO)** | Technical: crashes, performance, API calls, data integrity, offline mode |
+| **Yalor (PO)** | Flows: onboarding, daily verse, guided journeys, subscription, navigation |
+| **Stuart (CDO)** | Design: fonts, colors, spacing, animations, transitions, visual consistency |
+| **John (CEO)** | Content: verse accuracy, tone, spiritual integrity, Farsi rendering |
 
 ### QA Checklist
 
 #### Core Flows
-- [ ] App launch and onboarding
-- [ ] Daily quote display (Farsi, English, Retelling)
-- [ ] Contemplation mode
-- [ ] Guided journey (start to finish)
-- [ ] Masnavi library navigation
-- [ ] Search functionality
+- [ ] App launch and onboarding (first-time user experience)
+- [ ] Daily verse display (Farsi, English translation, Modern retelling)
+- [ ] Contemplation mode (enter and exit)
+- [ ] Guided journey (start to finish — at least one journey)
+- [ ] Masnavi library navigation (browse, search, filter)
+- [ ] Search functionality (keyword, emotion, theme)
 - [ ] Save/bookmark feature
-- [ ] Share functionality
+- [ ] Share functionality (Instagram, WhatsApp, copy text)
 - [ ] Settings and preferences
-- [ ] Subscription/paywall flow
+- [ ] Subscription/paywall flow (free → premium prompt)
+- [ ] Push notification (receive and tap-to-open)
 
 #### Technical
-- [ ] No crashes on main flows
-- [ ] Performance acceptable
-- [ ] Offline mode works
-- [ ] Push notifications working
-- [ ] Analytics tracking correctly
+- [ ] No crashes on main flows (crash-free rate target: 99.5%+)
+- [ ] Performance acceptable (app load < 3 seconds, screens < 1 second)
+- [ ] Offline mode works (cached daily verse, saved content)
+- [ ] Push notifications working correctly
+- [ ] Analytics events firing (check Mixpanel debug)
+- [ ] Dark mode rendering (if supported)
+- [ ] Multiple device sizes (iPhone SE, iPhone 15, iPad)
 
 #### Design
-- [ ] Fonts rendering correctly
-- [ ] Colors match design system
-- [ ] Spacing and alignment
-- [ ] Transitions smooth
-- [ ] No visual glitches
+- [ ] Fonts rendering correctly (serif for Rumi, sans-serif for UI)
+- [ ] Colors match design system tokens
+- [ ] Spacing and alignment per design specs
+- [ ] Transitions and animations smooth (no jank)
+- [ ] No visual glitches (overlapping text, clipped images)
+- [ ] Farsi/Arabic text renders right-to-left correctly
+
+#### Content
+- [ ] Daily verse is correct for today's date
+- [ ] Farsi text is accurate (John verifies)
+- [ ] English translation matches source
+- [ ] Modern retelling reads naturally
+- [ ] No typos or formatting errors
+
+### QA Sync (12:30 PM PT — 30 minutes)
+- Each person reports: pass, pass with notes, or blocker
+- Todd resolves any P0/P1 issues before 2:00 PM Thursday
+- YM makes go/no-go call for Thursday release
 
 ### Deliverables
-- QA sign-off (or blocker list)
-- Last-minute fixes identified
-- Go/no-go decision for Thursday
+- QA sign-off (or blocker list) posted in #release-train
+- Last-minute fixes identified and assigned
+- Go/no-go decision documented
 
 ---
 
-## Sprint Metrics
+## Sprint Metrics Dashboard
 
-Track weekly:
+Track weekly in ClickUp or a shared spreadsheet:
 
-| Metric | Target | Actual |
-|--------|--------|--------|
-| Features shipped | [TARGET] | [ACTUAL] |
-| Bugs fixed | [TARGET] | [ACTUAL] |
-| Beta feedback items addressed | [TARGET] | [ACTUAL] |
-| Build stability (crash-free rate) | 99%+ | [ACTUAL] |
-| Release on time | Yes | [YES/NO] |
+| Metric | Target | Week 1 | Week 2 | Week 3 | Week 4 |
+|--------|--------|--------|--------|--------|--------|
+| Features shipped | 2-4 per sprint | — | — | — | — |
+| Bugs fixed | 5-10 per sprint | — | — | — | — |
+| P0/P1 bugs open | 0 at release | — | — | — | — |
+| Beta feedback items addressed | 3-5 per sprint | — | — | — | — |
+| Build stability (crash-free %) | 99.5%+ | — | — | — | — |
+| Release on time (Thursday) | Yes | — | — | — | — |
+| Sprint completion rate | 80%+ | — | — | — | — |
 
 ---
 
@@ -184,44 +254,78 @@ Track weekly:
 
 | Version Format | Example | Use |
 |----------------|---------|-----|
-| Major.Minor.Patch | 1.2.3 | Public releases |
-| Build number | 1.2.3 (456) | Internal tracking |
+| Major.Minor.Patch | 1.2.3 | Public App Store releases |
+| Build number | 1.2.3 (456) | Internal/TestFlight tracking |
 
 ### Version Increment Rules
-- **Major:** Breaking changes, major new features
-- **Minor:** New features, significant improvements
-- **Patch:** Bug fixes, small improvements
+- **Major (1.x.x):** Breaking changes, major new features (e.g., Shams content launch, platform redesign)
+- **Minor (x.1.x):** New features, significant improvements (e.g., new guided journey, library filters)
+- **Patch (x.x.1):** Bug fixes, small improvements (e.g., typo fix, performance improvement)
+
+### Pre-Launch Versioning
+- Use `0.x.x` during beta (e.g., 0.1.0, 0.2.0, etc.)
+- Version 1.0.0 = App Store public launch
 
 ---
 
-## Communication
+## Communication Channels
 
 ### Internal
-- Slack channel: [#RELEASE-TRAIN CHANNEL]
-- Release notes: [LOCATION - e.g., Notion, ClickUp]
-- Sprint board: ClickUp
+| Channel | Purpose | Who Posts |
+|---------|---------|-----------|
+| **#release-train** (Slack) | Release notes, go/no-go, sprint scope | TB (releases), YM (scope) |
+| **#beta-feedback** (Slack) | User feedback, quotes, issues | YM |
+| **#bugs** (Slack) | Bug reports with screenshots/videos | All |
+| **ClickUp Board** | Sprint backlog, task assignment, progress | All |
 
 ### External (Beta Testers)
-- TestFlight release notes
-- Email updates (major releases)
-- In-app changelog
+| Channel | Purpose | Frequency |
+|---------|---------|-----------|
+| TestFlight release notes | What's new in each build | Weekly (Thursday) |
+| Email update | Major milestones, new features | Monthly |
+| In-app changelog | Visible to users in settings | Per release |
 
 ---
 
-## Exceptions Process
+## Exceptions & Holiday Coverage
 
-If release cannot happen Thursday:
+### If release cannot ship Thursday:
+1. TB notifies team by Wednesday 5:00 PM PT
+2. YM decides: delay to Friday, partial release, or skip week
+3. Post decision in #release-train with reason
+4. Document in ClickUp for retrospective
 
-1. Todd notifies team by Wednesday EOD
-2. Yalor decides: delay vs. partial release
-3. Communicate to beta testers
-4. Document reason and prevention plan
+### Holiday / Vacation weeks:
+- Designate backup for each role (see below)
+- Minimum: 1 person available for P0 bug response
+- Skip formal release if team capacity < 50%
+
+| Role | Primary | Backup |
+|------|---------|--------|
+| Release (Thursday) | Todd | Yalor (if technically capable) or skip |
+| Beta coordination (Friday) | Yalor | Stuart |
+| Feedback integration (Monday) | Yalor | Stuart |
+| Release discussion (Tuesday) | Yalor | John |
+| QA (Wednesday) | All | Minimum 2 of 4 |
+
+---
+
+## Cadence Review
+
+Review the release train process monthly:
+- Is the weekly cadence sustainable?
+- Are meetings the right length?
+- Is beta feedback being acted on quickly enough?
+- Do we need to adjust meeting times?
+- Any bottlenecks to address?
 
 ---
 
 ## Notes
 
-- This cadence starts [START DATE]
-- Adjust timing based on team availability
-- Review process monthly for improvements
-- Holiday/vacation coverage plan needed
+- This cadence begins **[START DATE — recommend June 2026, 4 weeks before iOS launch]**
+- First 2 weeks: practice the cadence with internal-only testing
+- Weeks 3-4: bring in beta Group A only
+- Post-launch: full cadence with all three beta groups
+- Adjust timing based on team availability and time zones
+- The cadence is a commitment — consistency is what makes it work
