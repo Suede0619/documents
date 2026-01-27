@@ -18,17 +18,20 @@ A sanctuary, not a feed. A digital platform where ancient mystical poetry become
 ### Current Status (January 2026)
 - **Content:** Complete Masnavi (25,000 verses in Farsi + English), modern retellings, Shams of Tabriz corpus prepared
 - **Product:** App architecture in progress for iOS (primary) and Android (secondary)
+- **Strategy:** Validation-first — ship minimum TestFlight build, gather traction data, then raise and build full product (per advisor guidance, Jan 2026)
 - **Fundraising:** $250K pre-seed via YC Post-Money SAFE at $4M post-money valuation cap
 - **Phase 1 (Pitch Deck):** Complete — 16-slide investor-ready deck delivered
 - **Entity:** [DECISION NEEDED — Delaware C-Corp recommended]
 - **Advisor:** Ben Rewis — monthly strategic sessions through 2027 (no equity, no pay)
 
 ### Success Criteria
-1. **Fundraising:** Close $250K SAFE (target: April-May 2026)
-2. **iOS Launch:** Public release (target: September-October 2026)
-3. **Android Launch:** Public release (target: Q4 2026-Q1 2027)
-4. **Year 1 ARR:** $150K (Q4 2026), scaling to $800K+ (Q3 2027)
-5. **Platform Expansion:** Proven model repeatable for Hafez, Shams of Tabriz, and other mystical poets
+1. **Validation:** Ship TestFlight MVP, recruit up to 5,000 users, gather traction data (target: Feb-Mar 2026)
+2. **Audience Discovery:** Run $50-100 micro-ad tests on Pinterest/Instagram/Facebook to define actual audience (target: Feb-Mar 2026)
+3. **Fundraising:** Close $250K SAFE with traction data in hand (target: April-May 2026)
+4. **iOS Launch:** Public release (target: September-October 2026)
+5. **Android Launch:** Public release (target: Q4 2026-Q1 2027)
+6. **Year 1 ARR:** $150K (Q4 2026), scaling to $800K+ (Q3 2027)
+7. **Platform Expansion:** Proven model repeatable for Hafez, Shams of Tabriz, and other mystical poets
 
 ---
 
@@ -94,6 +97,80 @@ A sanctuary, not a feed. A digital platform where ancient mystical poetry become
 
 **Runway:** 14-16 months at moderate burn ($25,589/month)
 **Break-even:** April-May 2027 (~500K users, ~4,000 paid subscribers)
+
+---
+
+## PHASE 0: VALIDATION (Before Full Build)
+
+Per advisor feedback (Former Head of Product at Twitter, Jan 2026): "Don't build anything substantial till you can validate the market." The following phase precedes all product development described in this PRD.
+
+### Validation Build (TestFlight MVP)
+
+Ship the simplest possible version of the app to TestFlight:
+
+1. **Daily verse** — Farsi original + English translation + modern retelling
+2. **One guided journey** — A single complete journey experience
+3. **Basic analytics** — Mixpanel integration tracking DAU, session length, screen time, return rate
+4. **Paywall screen** — Feature comparison and subscription prompt (even without payment processing — measure tap intent)
+
+This is not a beta. It is a learning tool. The goal is data, not polish.
+
+### TestFlight Distribution
+
+- **Target:** Up to 5,000 users
+- **Sources:** Friends and family, spiritual communities, John's existing network, waitlist signups, public Rumi/poetry communities
+- **Timeline:** Ship within weeks of CTO beginning focused build, not months
+
+### Tracking and Metrics
+
+Track everything from day one:
+
+| Metric | What It Tells Us |
+|--------|-----------------|
+| DAU / MAU | Is anyone coming back? |
+| Session length | Are they reading or bouncing? |
+| Return rate (D1, D7, D30) | Is this a habit or a novelty? |
+| Screen time per feature | What do people actually use? |
+| Paywall tap-through rate | Will people pay for this? |
+| Daily verse engagement (open, read time, save) | Is the core experience working? |
+| Guided journey start rate / completion rate | Is the deeper content compelling? |
+
+### Micro-Ad Audience Discovery
+
+- **Spend:** $50-100 total across Pinterest, Instagram, and Facebook
+- **Purpose:** Define the actual audience — demographics, interests, which platform converts
+- **What to measure:** CPM, click-through rate, audience demographics of engaged users
+- **Outcome:** Real audience data replaces founder assumptions about who the user is
+
+### User Language Capture
+
+- Collect how real users describe the app in their own words
+- These descriptions become marketing copy, App Store text, and investor pitch language
+- "The best slogans are ones that your users give you" (advisor)
+
+### Validation Success Criteria
+
+Before committing to full build and fundraising, the team should have answers to:
+
+| Question | Minimum Signal |
+|----------|---------------|
+| Do users return after day 1? | D1 retention > 30% |
+| Do users return after a week? | D7 retention > 15% |
+| Will users pay? | Paywall tap-through > 5% |
+| What features matter? | Screen time data shows clear preferences |
+| Who is the audience? | Ad data defines demographics and platform |
+| How do users describe the app? | 10+ organic user quotes collected |
+
+These thresholds are starting points, not hard gates. The point is to have real data before spending $250K.
+
+### What Validation Changes
+
+Validation findings feed directly into:
+- **Feature priorities** — Build what users actually engage with, cut what they ignore
+- **Marketing language** — Use user words, not founder words
+- **Audience targeting** — Spend $100K marketing budget on proven demographics, not assumptions
+- **Investor pitch** — Walk into meetings with traction data ("X thousand users, Y% return daily, Z% tapped to pay")
+- **Pricing confidence** — Real willingness-to-pay data vs. competitor benchmarking
 
 ---
 
@@ -337,15 +414,26 @@ A sanctuary, not a feed. A digital platform where ancient mystical poetry become
 
 ## GO-TO-MARKET
 
-### User Acquisition Channels
+### Phase 0: Audience Discovery (Feb-Mar 2026)
+
+Before spending the $100K marketing budget, define the audience with real data:
+
+- **Micro-ad tests:** $50-100 across Pinterest, Instagram, Facebook
+- **Purpose:** Learn who clicks, who engages, which platform converts, what creative resonates
+- **Output:** Audience demographics, platform preference, cost benchmarks — all inputs to the $100K plan
+- **User language:** Capture how TestFlight users describe the app in their own words for marketing copy
+
+### Phase 1: Full Acquisition (Post-Funding)
+
+#### User Acquisition Channels
 
 **Organic:**
 - App Store Optimization (ASO): "Rumi," "Rumi poetry," "Masnavi," "spiritual companion"
 - Content marketing and social sharing
-- Word of mouth from beta testers
+- Word of mouth from TestFlight users (up to 5,000 by launch)
 
-**Paid ($100K budget, front-loaded around launches):**
-- Social ads (Meta, TikTok)
+**Paid ($100K budget, informed by Phase 0 audience data, front-loaded around launches):**
+- Social ads (Meta, TikTok) — allocate to platforms proven in micro-ad tests
 - Apple Search Ads, Google UAC
 - Podcast sponsorships
 
@@ -430,15 +518,15 @@ A sanctuary, not a feed. A digital platform where ancient mystical poetry become
 ## TIMELINE
 
 ```
-NOW                SAFE CLOSE          BETA               PUBLIC LAUNCH
-(Jan 2026)         (~Apr-May 2026)     (~Jun-Jul 2026)    (~Sep-Oct 2026)
-    |                    |                  |                    |
-    ├─ Wireframes        ├─ Full UI design  ├─ Working app       ├─ App Store live
-    ├─ Incorporation     ├─ Hire UI/UX      ├─ TestFlight        ├─ Marketing push
-    ├─ Founder agmts     ├─ Hire Marketing  ├─ Beta groups       ├─ PR launch
-    ├─ Investor mtgs     ├─ Todd full-time  ├─ Release train     ├─ Paid acquisition
-    ├─ User research     ├─ Build begins    ├─ UX research       |
-    |  (lightweight)     |                  ├─ Iterate           |
+VALIDATE             TRACTION DATA       SAFE CLOSE          BUILD & LAUNCH
+(Feb-Mar 2026)       (~Mar-Apr 2026)     (~Apr-May 2026)     (~Jun-Oct 2026)
+    |                    |                    |                    |
+    ├─ TestFlight MVP    ├─ Usage metrics     ├─ Hire UI/UX       ├─ Full UI design
+    ├─ Micro-ad tests    ├─ Audience data     ├─ Hire Marketing   ├─ Full build
+    ├─ Recruit 5K users  ├─ User quotes       ├─ Todd full-time   ├─ Release train
+    ├─ Mixpanel setup    ├─ Investor mtgs     ├─ Build begins     ├─ Beta groups
+    ├─ Incorporation     |   (with data)      |                   ├─ App Store live
+    ├─ Founder agmts     |                    |                   ├─ Marketing push
 ```
 
 ### Key Milestones
@@ -447,32 +535,45 @@ NOW                SAFE CLOSE          BETA               PUBLIC LAUNCH
 |-----------|--------|--------|
 | Pitch deck complete | Jan 2026 | Done |
 | VAULT docs complete (Pass 1) | Jan 2026 | Done |
-| Wireframes + hero mockups | Feb 2026 | Not started |
+| **TestFlight MVP shipped** | **Feb 2026** | **Not started** |
+| **Mixpanel analytics integrated** | **Feb 2026** | **Not started** |
+| **Micro-ad audience tests ($50-100)** | **Feb-Mar 2026** | **Not started** |
+| **Up to 5,000 TestFlight users recruited** | **Feb-Mar 2026** | **Not started** |
 | Incorporation (Delaware C-Corp) | Feb 2026 | Not started |
 | Founder agreements signed | Feb-Mar 2026 | Not started |
-| Data room 80% ready | Mar-Apr 2026 | In progress |
-| Investor meetings begin | Mar-Apr 2026 | Not started |
+| **Validation data collected (DAU, retention, paywall intent)** | **Mar 2026** | **Not started** |
+| Wireframes + hero mockups | Mar 2026 | Not started |
+| Data room 80% ready (including traction data) | Mar-Apr 2026 | In progress |
+| Investor meetings begin (with traction data) | Apr 2026 | Not started |
 | SAFE closes ($250K) | Apr-May 2026 | Not started |
 | Hire UI/UX Designer + Marketing Specialist | May-Jun 2026 | Not started |
 | Full UI design system complete | Jun-Jul 2026 | Not started |
-| Beta build on TestFlight | Jul-Aug 2026 | Not started |
 | Release train starts | ~Jun 2026 | Not started |
 | iOS public launch | Sep-Oct 2026 | Not started |
 | Android launch | Q4 2026-Q1 2027 | Not started |
 
 ---
 
-## RELEASE TRAIN (Weekly Cadence)
+## RELEASE TRAIN (Two Phases)
+
+### Phase 0: Validation Cadence (Feb-Mar 2026)
+
+Lightweight weekly builds focused on learning, not features. Ship TestFlight MVP, then iterate based on analytics and user behavior. No formal QA process — speed matters more than polish.
+
+| Day | Activity | Owner |
+|-----|----------|-------|
+| Thursday | Weekly TestFlight build | Todd (CTO) |
+| Monday | Review Mixpanel data + user feedback (30 min) | Yalor (PO) + Todd |
+
+### Phase 1: Full Release Train (Starting ~Jun 2026)
 
 | Day | Activity | Owner |
 |-----|----------|-------|
 | Thursday | Weekly release (MVP n+1) on TestFlight | Todd (CTO) |
-| Friday | Beta testing (100-150 users, 3 groups) | Yalor (PO) |
+| Friday | Beta testing (up to 5,000 users) | Yalor (PO) |
 | Monday | Feedback integration (45 min) | Yalor (PO) |
 | Tuesday | Product release discussion (1 hr, full team) | Yalor (PO) |
 | Wednesday | Team QA (3 hrs) | Full team |
-
-**Start date:** [DECISION NEEDED — recommend June 2026, 4 weeks before iOS launch]
 
 **Detailed schedule:** See Doc 06 (Release Train Schedule)
 **PO authority:** See Doc 07 (Product Owner Charter)
@@ -585,6 +686,8 @@ NOW                SAFE CLOSE          BETA               PUBLIC LAUNCH
 - "A verse waits for you when you're ready." (not "Unlock your best self with Rumi!")
 - "Rumi as a living teacher — daily, authentic, deeply human." (not "Join 10,000 users on their journey!")
 
+**Note:** These are starting positions. Per validation-first strategy, brand language should be tested against real user language captured during Phase 0. The best slogans come from users, not founders.
+
 ---
 
 ## DOCUMENT HISTORY
@@ -593,6 +696,7 @@ NOW                SAFE CLOSE          BETA               PUBLIC LAUNCH
 |---------|------|---------|
 | 1.0 | December 29, 2024 | Initial PRD — Phase 1 (deck) and Phase 2 (app) scoped |
 | 2.0 | January 26, 2026 | Major revision: aligned with VAULT system, updated team titles (all Co-Founder), filled in confirmed decisions (pricing, funding, timeline, forecasts), removed completed Phase 1 workflow, added release train and hire plan, updated competitive landscape, consolidated open decisions with Doc 00 |
+| 2.1 | January 27, 2026 | Validation-first strategy: added Phase 0 (TestFlight MVP, micro-ad audience discovery, user language capture), shifted timeline (validate → traction data → raise → build), updated go-to-market with audience discovery phase, updated release train to two phases, updated success criteria and milestones |
 
 ---
 

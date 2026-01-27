@@ -9,19 +9,80 @@ Last Updated: January 26, 2026
 
 A predictable weekly rhythm for product development, testing, and release. Creates accountability and ensures regular customer feedback integration. Per Ben Rewis (Jan 21, 2026): Implement a release train methodology with Thursday releases, Friday beta testing, and weekly feedback loops.
 
+**Two-phase approach:** Phase 0 (validation cadence) starts immediately with the TestFlight MVP. Phase 1 (full release train) starts ~4 weeks before iOS public launch.
+
 ---
 
-## Weekly Schedule
+## Phase 0: Validation Cadence (Starting Feb 2026)
+
+A lightweight weekly build cycle focused on learning, not features. Per advisor feedback (Former Head of Product at Twitter, Jan 2026): "Don't build anything substantial till you can validate the market."
+
+### Purpose
+- Ship the simplest version to TestFlight as fast as possible
+- Track user behavior with Mixpanel from day one
+- Iterate based on what the data shows, not what the team assumes
+- Generate traction data for investor meetings
+
+### Weekly Cycle
+
+| Day | Activity | Time (PT) | Owner | Duration | Output |
+|-----|----------|-----------|-------|----------|--------|
+| **Thursday** | TestFlight build | 2:00 PM | Todd (CTO) | — | Updated build on TestFlight |
+| **Monday** | Data review + user feedback | 10:00 AM | Yalor (PO) + Todd | 30 min | What the data says, what to change |
+
+### What Ships in Phase 0
+- Daily verse (Farsi + English + modern retelling)
+- One guided journey
+- Mixpanel analytics (DAU, session length, screen time, return rate)
+- Paywall screen (measure tap intent — no payment processing required)
+
+### What Does NOT Ship in Phase 0
+- Full Masnavi library
+- Search functionality
+- Bookmarking / personal collections
+- Multiple guided journeys
+- Polished design system
+- Any feature not needed to measure core engagement
+
+### Phase 0 Metrics Dashboard
+
+Track weekly from the first TestFlight build:
+
+| Metric | Target | Week 1 | Week 2 | Week 3 | Week 4 |
+|--------|--------|--------|--------|--------|--------|
+| TestFlight installs | 500+ first week | — | — | — | — |
+| DAU | Growing week-over-week | — | — | — | — |
+| D1 retention | > 30% | — | — | — | — |
+| D7 retention | > 15% | — | — | — | — |
+| Avg session length | > 3 min | — | — | — | — |
+| Paywall tap-through | > 5% | — | — | — | — |
+| Journey completion rate | > 50% | — | — | — | — |
+
+### Phase 0 Exit Criteria
+
+Move to Phase 1 (full release train) when:
+1. Validation data collected from 500+ users minimum
+2. Core engagement metrics (retention, session length) are within target range
+3. SAFE has closed and full build resources are available
+4. Team is ready for formal weekly cadence with QA
+
+If metrics are below targets, iterate in Phase 0 until the core experience works. Do not scale what does not retain.
+
+---
+
+## Phase 1: Full Release Train (Starting ~Jun 2026)
+
+### Weekly Schedule
 
 | Day | Activity | Time (PT) | Owner (A) | Participants | Duration | Output |
 |-----|----------|-----------|-----------|-------------|----------|--------|
 | **Thursday** | Weekly Release (MVP n+1) | 2:00 PM | Todd (CTO) | TB, SP reviews | — | New build on TestFlight |
-| **Friday** | Beta Testing | All day | Yalor (COO/PO) | Beta groups A/B/C | Async | Feedback collected |
+| **Friday** | Beta Testing | All day | Yalor (COO/PO) | Up to 5,000 TestFlight users | Async | Feedback collected |
 | **Monday** | Feedback Integration | 10:00 AM | Yalor (PO) | TB, SP, JW (optional) | 45 min | Prioritized issue list |
 | **Tuesday** | Product Release Discussion | 10:00 AM | Yalor (PO) | Full team | 1 hour | Sprint scope confirmed |
 | **Wednesday** | Team QA | 10:00 AM - 1:00 PM | Full Team | All | 3 hours | QA sign-off for Thursday |
 
-**Cadence start date:** **[DECISION NEEDED]** — Recommend starting the cadence 4 weeks before target iOS launch (approximately June 2026) to establish rhythm during final development push.
+**Cadence start date:** ~June 2026 (4 weeks before target iOS launch), or upon Phase 0 exit criteria being met.
 
 ---
 
@@ -68,12 +129,16 @@ A predictable weekly rhythm for product development, testing, and release. Creat
 
 ### Beta Groups
 
+**Phase 0 (Validation):** All TestFlight users (up to 5,000) receive every build. No group segmentation — maximize data volume.
+
+**Phase 1 (Full Release Train):** Segment into groups for targeted feedback:
+
 | Group | Size | Profile | Focus | Rotation |
 |-------|------|---------|-------|----------|
-| **Group A** | 20-30 users | Power users, early adopters, Rumi enthusiasts | Deep feature testing, edge cases | Stable core group |
-| **Group B** | 30-50 users | Target demographic (spiritual seekers, 25-55) | UX flow, emotional response, daily habit | Rotate 20% monthly |
-| **Group C** | 50-70 users | General audience, casual users | First impressions, onboarding clarity | Rotate 50% monthly |
-| **Total** | **100-150 users** | | | |
+| **Group A** | 100-200 users | Power users, early adopters, Rumi enthusiasts | Deep feature testing, edge cases | Stable core group |
+| **Group B** | 300-500 users | Target demographic (spiritual seekers, 25-55) | UX flow, emotional response, daily habit | Rotate 20% monthly |
+| **Group C** | 1,000-4,000 users | Broader audience from validation recruitment | First impressions, onboarding, retention | Rotate 50% monthly |
+| **Total** | **Up to 5,000 users** | Carried over from Phase 0 TestFlight recruitment | | |
 
 **Recruitment sources for beta testers:**
 - Existing waitlist / landing page signups
@@ -323,9 +388,12 @@ Review the release train process monthly:
 
 ## Notes
 
-- This cadence begins **[START DATE — recommend June 2026, 4 weeks before iOS launch]**
-- First 2 weeks: practice the cadence with internal-only testing
-- Weeks 3-4: bring in beta Group A only
-- Post-launch: full cadence with all three beta groups
+- **Phase 0 (validation cadence) begins as soon as the TestFlight MVP is ready — target Feb 2026**
+- Phase 0 is lightweight: Thursday builds + Monday data reviews only
+- Phase 0 goal: traction data for investor meetings, not product polish
+- **Phase 1 (full release train) begins ~June 2026**, 4 weeks before iOS launch, or upon Phase 0 exit criteria
+- Phase 1 first 2 weeks: practice full cadence with internal + Group A testing
+- Phase 1 weeks 3-4: bring in all beta groups
+- Post-launch: full cadence with all groups (up to 5,000 TestFlight users)
 - Adjust timing based on team availability and time zones
 - The cadence is a commitment — consistency is what makes it work

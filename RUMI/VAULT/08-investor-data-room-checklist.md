@@ -105,12 +105,12 @@ Master list of all documents investors will request during due diligence. Per Be
 | Product Roadmap | ✅ | Pitch deck slides 13-14 | YM/SP | In deck |
 | Technical Architecture Document | ⬜ | — | TB | Diagram showing: app → API → database → AI layer → content management |
 | App Store Listing (draft) | ⬜ | — | SP/YM | Title, subtitle, description, keywords, screenshots |
-| Beta User Metrics | ⬜ | — | TB/YM | 150 beta users — need engagement data (DAU, session length, retention) |
-| User Feedback Summary | ⬜ | — | YM | Compile best quotes, ratings, and insights from beta |
+| **TestFlight Usage Metrics** | ⬜ | — | TB/YM | **Up to 5,000 TestFlight users — DAU, retention (D1/D7/D30), session length, feature engagement, paywall tap-through** |
+| User Feedback Summary | ⬜ | — | YM | Compile best quotes, ratings, and insights from TestFlight users |
 | Competitive Analysis | ✅ | /consciousBiz/competitor-analysis-2026.md | SP | Comprehensive: Calm, Headspace, Insight Timer, Waking Up, Pattern |
 | IP/Patent Documentation | ⬜ | — | YM | Content is public domain; proprietary layer is translations + retellings + AI |
 
-**Action needed:** Technical architecture doc and beta user metrics are the two most commonly requested items from technical investors. Prioritize.
+**Action needed:** TestFlight MVP with Mixpanel analytics is the #1 priority. Ship the simplest version to TestFlight, recruit up to 5,000 users, and collect traction data before investor meetings. This data is the strongest item in the data room — "Here's what X thousand real users did on our app."
 
 ---
 
@@ -146,10 +146,14 @@ Master list of all documents investors will request during due diligence. Per Be
 |----------|--------|----------|-------|-------|
 | Market Size Analysis | ✅ | Pitch deck slide 3 | SP/YM | $6.2B → $19B by 2034, 35.2% CAGR |
 | Target Customer Profiles | ✅ | Various | YM | Spiritual seekers, Rumi book readers, meditation app users |
-| Customer Testimonials | ⬜ | — | YM | From 150 beta users — collect best quotes |
-| NPS/Satisfaction Data | ⬜ | — | YM | Run NPS survey on beta group |
+| **Ad Audience Discovery Results** | ⬜ | — | SP/YM | **Demographics, CPM, click-through by platform from $50-100 micro-ad tests on Pinterest/Instagram/Facebook** |
+| **User Language Quotes** | ⬜ | — | YM | **How real TestFlight users describe the app in their own words — becomes marketing copy and investor pitch language** |
+| Customer Testimonials | ⬜ | — | YM | From up to 5,000 TestFlight users — collect best quotes |
+| NPS/Satisfaction Data | ⬜ | — | YM | Run NPS survey on TestFlight users |
 | Waitlist Size | ⬜ | — | YM | Track from landing page signups |
 | Category Positioning | ✅ | /consciousBiz/Play Bigger Book Strategy*.md | YM | "Spiritual Companion App" category defined |
+
+**Action needed:** Ad audience discovery and user language quotes are new high-priority items. These turn the investor pitch from "Here's who we think our users are" into "Here's who our users actually are, in their own words."
 
 ---
 
@@ -279,28 +283,38 @@ Track additional requests from specific investors as conversations progress:
 | Product & Technology | 7 | 2 | 29% |
 | Content & IP | 5 | 2 | 40% |
 | Legal & Compliance | 6 | 1 | 17% |
-| Market & Customers | 6 | 3 | 50% |
+| Market & Customers | 8 | 3 | 38% |
 | Go-to-Market | 5 | 1 | 20% |
-| **TOTAL** | **63** | **16** | **25%** |
+| **TOTAL** | **65** | **16** | **25%** |
 
-**Target: 80%+ ready by April 1, 2026.** The remaining 75% is primarily: incorporation, legal agreements, financial finalization, and product documentation.
+**Target: 80%+ ready by April 1, 2026.** The remaining 75% is primarily: validation data (TestFlight metrics, ad audience results, user language), incorporation, legal agreements, financial finalization, and product documentation. Validation items are highest-impact — they transform the investor pitch from plan to proof.
 
 ---
 
 ## Critical Path (Must Complete Before Any Investor Meeting)
 
-1. ⬜ **Incorporate** (Delaware C-Corp)
-2. ⬜ **Agree on equity split** (founder discussion)
-3. ⬜ **Execute founder agreements** (stock purchase, vesting)
-4. ⬜ **Sign IP assignment agreements** (all founders)
-5. ⬜ **File 83(b) elections** (within 30 days — IRS hard deadline)
-6. ⬜ **Finalize cap table** (in Pulley or Carta)
-7. ⬜ **Prepare SAFE document** (YC template)
-8. 🟡 **Finalize cash flow forecast** (Feb session with Ben)
-9. ⬜ **Record product demo** (2-3 minute screen recording)
-10. ⬜ **Write executive summary** (1-page)
+### Validation (New — Highest Impact)
+1. ⬜ **Ship TestFlight MVP** (daily verse + one journey + Mixpanel + paywall screen)
+2. ⬜ **Recruit up to 5,000 TestFlight users** (friends, family, spiritual communities, waitlist)
+3. ⬜ **Collect traction data** (DAU, retention, session length, paywall tap-through)
+4. ⬜ **Run micro-ad tests** ($50-100 on Pinterest/Instagram/Facebook — audience discovery)
+5. ⬜ **Capture user language quotes** (how real users describe the app)
 
-**Without items 1-7, you cannot legally accept investment.** Prioritize these above all else.
+### Legal (Required — Cannot Accept Investment Without These)
+6. ⬜ **Incorporate** (Delaware C-Corp)
+7. ⬜ **Agree on equity split** (founder discussion)
+8. ⬜ **Execute founder agreements** (stock purchase, vesting)
+9. ⬜ **Sign IP assignment agreements** (all founders)
+10. ⬜ **File 83(b) elections** (within 30 days — IRS hard deadline)
+11. ⬜ **Finalize cap table** (in Pulley or Carta)
+12. ⬜ **Prepare SAFE document** (YC template)
+
+### Materials
+13. 🟡 **Finalize cash flow forecast** (Feb session with Ben)
+14. ⬜ **Record product demo** (2-3 minute screen recording — can use TestFlight MVP)
+15. ⬜ **Write executive summary** (1-page)
+
+**Without items 6-12, you cannot legally accept investment.** Without items 1-5, you walk into investor meetings with a plan instead of proof. The strongest position is both: legal readiness AND traction data.
 
 ---
 

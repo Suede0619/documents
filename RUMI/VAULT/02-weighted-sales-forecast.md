@@ -23,6 +23,51 @@ Revenue projections weighted by probability of occurrence. More realistic than s
 
 ---
 
+## Pre-Launch Validation Data (Feb-Apr 2026)
+
+Before the revenue projections below take effect, the validation phase generates real data that either confirms or adjusts these assumptions.
+
+### TestFlight MVP Metrics (Target: Feb-Mar 2026)
+
+| Metric | What It Validates | Target |
+|--------|------------------|--------|
+| DAU / MAU ratio | Daily habit strength | > 20% |
+| D1 retention | First impression quality | > 30% |
+| D7 retention | Habit formation | > 15% |
+| D30 retention | Long-term engagement | > 10% |
+| Session length | Content depth engagement | > 3 min |
+| Paywall tap-through | Willingness to pay | > 5% |
+| Guided journey completion | Content value | > 50% |
+
+**How validation data adjusts forecasts:**
+- If paywall tap-through > 10%: conversion assumptions may be too conservative — shift probability weight toward aggressive scenarios
+- If D7 retention < 10%: core product needs iteration before committing marketing spend — delay launch timeline
+- If session length < 1 min: daily verse alone is not compelling enough — add features before scaling
+- If paywall tap-through < 2%: pricing or value proposition needs rethinking — adjust conversion rates downward
+
+### Micro-Ad Audience Discovery (Target: Feb-Mar 2026)
+
+| Metric | What It Tells Us | How It Adjusts Forecasts |
+|--------|-----------------|--------------------------|
+| CPM by platform | Where to spend $100K | Allocate budget to lowest-CPM, highest-engagement platform |
+| Click-through rate | Creative effectiveness | Informs CAC assumptions below |
+| Audience demographics | Who actually clicks | Validates or replaces assumed target demographic |
+| Platform performance | Pinterest vs. Instagram vs. Facebook | Concentrates paid spend on best performer |
+
+**Spend:** $50-100 total (founder-funded, pre-SAFE)
+
+### Investor Story
+
+With validation data, the investor pitch shifts from "Here's our plan" to "Here's our traction":
+- "X thousand users on TestFlight, Y% return daily"
+- "Z% tapped to subscribe before we even turned on payments"
+- "Our best-performing ad audience is [demographic] on [platform] at $X CPM"
+- "Users describe the app as [their words, not ours]"
+
+This data closes SAFEs faster than projections alone.
+
+---
+
 ## Q4 2026 Forecast (Launch Quarter)
 
 ### User Acquisition Scenarios
@@ -355,8 +400,10 @@ Use these as internal goals. Report actuals against targets monthly.
 
 ## Notes
 
-- Probability weights should be adjusted monthly based on actual data once launched
+- **Probability weights should be adjusted based on TestFlight validation data (Feb-Mar 2026) BEFORE investor meetings** — do not present unvalidated assumptions
+- Probability weights should continue to be adjusted monthly based on actual data once launched
 - Review forecast with Ben Rewis at monthly sessions
 - Update weighted averages quarterly
 - Conservative scenario is the planning basis for cash management; moderate scenario is the target
 - All figures are gross unless labeled "net" — always account for 30% App Store commission in cash planning
+- Micro-ad data (CPM, click-through, demographics) should be incorporated into user acquisition assumptions as soon as available

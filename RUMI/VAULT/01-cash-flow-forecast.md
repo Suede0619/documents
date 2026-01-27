@@ -113,20 +113,33 @@ Based on $250K Use of Funds allocation, spread across 18 months (pre-seed runway
 | Operations | $25,000 | $1,389 | Office, travel, miscellaneous |
 | **Total Variable** | **$250,000** | **$13,889** | |
 
-### Marketing Spend Ramp (Recommended)
+### Pre-Launch Validation Spend (Immediate — Before Funding)
 
-Marketing should not be spent evenly — front-load around launch for maximum impact:
+Micro-budget audience discovery before committing the $100K marketing budget:
+
+| Period | Spend | Purpose |
+|--------|-------|---------|
+| Feb 2026 | $50-100 | Micro-ad tests on Pinterest, Instagram, Facebook — define actual audience demographics, test creatives, measure CPM and click-through |
+| Mar 2026 | $50-100 | Iterate on best-performing platform/creative from Feb tests |
+| **Total validation spend** | **$100-200** | **Generates audience data that informs how the $100K is allocated** |
+
+This is founder-funded (pre-SAFE). The return is strategic data, not users.
+
+### Marketing Spend Ramp (Post-Funding — Informed by Validation Data)
+
+Marketing should not be spent evenly — front-load around launch, and allocate based on audience data from micro-ad tests:
 
 | Period | Monthly Marketing Spend | Cumulative | Notes |
 |--------|------------------------|------------|-------|
-| Jan-Jun 2026 (pre-launch) | $1,000 | $6,000 | Landing page ads, waitlist building |
-| Jul 2026 (iOS launch) | $15,000 | $21,000 | Launch PR, paid social burst |
-| Aug 2026 | $10,000 | $31,000 | Sustain launch momentum |
-| Sep 2026 | $8,000 | $39,000 | Optimize performing channels |
-| Oct 2026 (Android launch) | $12,000 | $51,000 | Second platform launch burst |
-| Nov 2026 | $8,000 | $59,000 | Holiday season push |
-| Dec 2026 | $8,000 | $67,000 | Sheb-i Arus (Rumi's death anniversary Dec 17) — cultural moment |
-| Jan-Jun 2027 | $5,500/month | $100,000 | Steady-state optimization |
+| Jan-Mar 2026 (pre-funding) | $50-100/month | $100-200 | Micro-ad audience discovery (see above) |
+| Apr-Jun 2026 (post-SAFE) | $1,000 | $3,000 + validation spend | Landing page ads, waitlist building — informed by micro-ad data |
+| Jul 2026 (iOS launch) | $15,000 | $18,000+ | Launch PR, paid social burst — allocate to platforms proven in validation |
+| Aug 2026 | $10,000 | $28,000+ | Sustain launch momentum |
+| Sep 2026 | $8,000 | $36,000+ | Optimize performing channels |
+| Oct 2026 (Android launch) | $12,000 | $48,000+ | Second platform launch burst |
+| Nov 2026 | $8,000 | $56,000+ | Holiday season push |
+| Dec 2026 | $8,000 | $64,000+ | Sheb-i Arus (Rumi's death anniversary Dec 17) — cultural moment |
+| Jan-Jun 2027 | $6,000/month | $100,000 | Steady-state optimization |
 
 ---
 
@@ -241,16 +254,18 @@ Marketing should not be spent evenly — front-load around launch for maximum im
 
 ## Key Assumptions
 
-1. **Conversion rate:** 0.25% at soft launch (Jul 2026) → 0.5% at full launch (Oct 2026) → 1.0% at 12 months (Jul 2027)
-2. **Average revenue per subscriber:** $100/year blended ($8.33/month) assumes 60% annual / 40% monthly mix
-3. **Customer Acquisition Cost (CAC):** $30-$120 blended across organic and paid channels
-4. **Lifetime Value (LTV):** $300-$500 (3-5 year average subscription lifetime)
-5. **LTV:CAC ratio:** 4:1 to 8:1 (healthy range; 3:1 is minimum viable)
-6. **Monthly churn rate:** 8-12% for monthly subscribers, 3-5% for annual subscribers (industry benchmarks for meditation/spiritual apps)
-7. **App Store commission:** 30% (conservative; may qualify for 15% Small Business Program if under $1M/year)
-8. **Marketing efficiency:** Improves over time as organic channels (ASO, word-of-mouth, PR) compound
-9. **Hiring timeline:** UI/UX designer and marketing specialist hired Q3 2026
-10. **No additional funding** until Series A (targeted Q1-Q2 2027)
+1. **Validation-first strategy:** TestFlight MVP ships Feb 2026, up to 5,000 users recruited before investor meetings, traction data informs all subsequent spending
+2. **Pre-funding spend:** $100-200 founder-funded for micro-ad audience discovery (Feb-Mar 2026)
+3. **Conversion rate:** 0.25% at soft launch (Jul 2026) → 0.5% at full launch (Oct 2026) → 1.0% at 12 months (Jul 2027) — to be validated against TestFlight paywall tap-through data
+4. **Average revenue per subscriber:** $100/year blended ($8.33/month) assumes 60% annual / 40% monthly mix
+5. **Customer Acquisition Cost (CAC):** $30-$120 blended across organic and paid channels — micro-ad tests will provide early CPM/CPA benchmarks
+6. **Lifetime Value (LTV):** $300-$500 (3-5 year average subscription lifetime)
+7. **LTV:CAC ratio:** 4:1 to 8:1 (healthy range; 3:1 is minimum viable)
+8. **Monthly churn rate:** 8-12% for monthly subscribers, 3-5% for annual subscribers (industry benchmarks for meditation/spiritual apps)
+9. **App Store commission:** 30% (conservative; may qualify for 15% Small Business Program if under $1M/year)
+10. **Marketing efficiency:** Improves over time as organic channels (ASO, word-of-mouth, PR) compound; $100K allocation informed by Phase 0 audience data
+11. **Hiring timeline:** UI/UX designer and marketing specialist hired Q3 2026
+12. **No additional funding** until Series A (targeted Q1-Q2 2027)
 
 ---
 
